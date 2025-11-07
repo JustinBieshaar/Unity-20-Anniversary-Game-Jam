@@ -17,7 +17,6 @@ namespace Assets._Code.Building
 				cellPos.z = 1;
 
 				m_tilemap.SetTile(cellPos, m_tileToPlace);
-				Debug.Log($"Place tile! ${cellPos}");
 			}
 		}
 	}
