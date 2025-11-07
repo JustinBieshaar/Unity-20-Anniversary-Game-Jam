@@ -6,6 +6,7 @@ namespace Assets._Code.Player
 {
 	public class PlayerMovementController : MonoBehaviour
 	{
+
 		[SerializeField] private Tilemap m_tileMap;
 		[SerializeField] private List<TileBase> m_acceptableTiles;
 
@@ -45,9 +46,6 @@ namespace Assets._Code.Player
 
 			transform.position = currentPos;
 
-			// Stop movement if completely blocked
-			if (!IsValidTile(nextPosX) && !IsValidTile(nextPosY))
-				m_direction = Vector2.zero;
 		}
 
 		private bool IsValidTile (Vector3 position)
@@ -60,9 +58,13 @@ namespace Assets._Code.Player
 
 		private Vector3 GetIsometricDirection (Vector2 input)
 		{
-			// Maps screen input to isometric world movement
-			Vector3 direction = new Vector3(input.x + input.y, input.y - input.x, 0f);
-			return direction;
+			Vector3 direction = new Vector3(
+				input.x - input.y,
+				(input.x + input.y) * .5f,
+				0f
+			);
+
+			return direction.normalized;
 		}
 
 		private void OnEnable ()
