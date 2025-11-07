@@ -15,8 +15,6 @@ namespace Assets._Code.Player
 
 		private Vector3 m_direction;
 
-		private Vector3 NextPosition => transform.position += m_direction * m_speed;
-
 		private void Awake ()
 		{
 			m_inputControls = new InputControls();
@@ -33,16 +31,23 @@ namespace Assets._Code.Player
 			if (m_direction.magnitude <= 0) return;
 
 			Vector3 isoDirection = GetIsometricDirection(m_direction);
-			Vector3 nextPos = transform.position + isoDirection * m_speed * Time.deltaTime;
+			Vector3 currentPos = transform.position;
 
-			if (IsValidTile(nextPos))
-			{
-				transform.position = nextPos;
-			}
-			else
-			{
+			// Try moving X axis
+			Vector3 nextPosX = currentPos + new Vector3(isoDirection.x, 0, 0) * m_speed * Time.deltaTime;
+			if (IsValidTile(nextPosX))
+				currentPos.x = nextPosX.x;
+
+			// Try moving Y axis
+			Vector3 nextPosY = currentPos + new Vector3(0, isoDirection.y, 0) * m_speed * Time.deltaTime;
+			if (IsValidTile(nextPosY))
+				currentPos.y = nextPosY.y;
+
+			transform.position = currentPos;
+
+			// Stop movement if completely blocked
+			if (!IsValidTile(nextPosX) && !IsValidTile(nextPosY))
 				m_direction = Vector2.zero;
-			}
 		}
 
 		private bool IsValidTile (Vector3 position)
