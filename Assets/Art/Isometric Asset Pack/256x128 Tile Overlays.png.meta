@@ -1,0 +1,3523 @@
+fileFormatVersion: 2
+guid: d937f91fb76a9e6449ef676583cef70e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6317194375982302466
+    second: 256x128 Tile Overlays_0
+  - first:
+      213: 8208664845232895741
+    second: 256x128 Tile Overlays_1
+  - first:
+      213: 5335785939956386433
+    second: 256x128 Tile Overlays_2
+  - first:
+      213: 1945567636190849429
+    second: 256x128 Tile Overlays_3
+  - first:
+      213: -6656432074347333446
+    second: 256x128 Tile Overlays_4
+  - first:
+      213: -8842986838073446990
+    second: 256x128 Tile Overlays_5
+  - first:
+      213: 2082617589195596560
+    second: 256x128 Tile Overlays_6
+  - first:
+      213: -6866355428370428933
+    second: 256x128 Tile Overlays_7
+  - first:
+      213: -6261826733120255820
+    second: 256x128 Tile Overlays_8
+  - first:
+      213: 1783498537538973045
+    second: 256x128 Tile Overlays_9
+  - first:
+      213: 4733179925240962768
+    second: 256x128 Tile Overlays_10
+  - first:
+      213: -518570749181354191
+    second: 256x128 Tile Overlays_11
+  - first:
+      213: 5933080369893887644
+    second: 256x128 Tile Overlays_12
+  - first:
+      213: 7810310162501263990
+    second: 256x128 Tile Overlays_13
+  - first:
+      213: -5812943877526703751
+    second: 256x128 Tile Overlays_14
+  - first:
+      213: -92815823914541444
+    second: 256x128 Tile Overlays_15
+  - first:
+      213: -8891035323618921341
+    second: 256x128 Tile Overlays_16
+  - first:
+      213: 4712967723060020710
+    second: 256x128 Tile Overlays_17
+  - first:
+      213: 4448062687007309463
+    second: 256x128 Tile Overlays_18
+  - first:
+      213: 131562615934833321
+    second: 256x128 Tile Overlays_19
+  - first:
+      213: -1714116140903861731
+    second: 256x128 Tile Overlays_20
+  - first:
+      213: 1395454778073219195
+    second: 256x128 Tile Overlays_21
+  - first:
+      213: -5947327310450883400
+    second: 256x128 Tile Overlays_22
+  - first:
+      213: 2583853856167496842
+    second: 256x128 Tile Overlays_23
+  - first:
+      213: 6620428947506790759
+    second: 256x128 Tile Overlays_24
+  - first:
+      213: -748684460911097219
+    second: 256x128 Tile Overlays_25
+  - first:
+      213: -6472460123327098445
+    second: 256x128 Tile Overlays_26
+  - first:
+      213: 604853425583837445
+    second: 256x128 Tile Overlays_27
+  - first:
+      213: 7391478625509414311
+    second: 256x128 Tile Overlays_28
+  - first:
+      213: 6282102337931586840
+    second: 256x128 Tile Overlays_29
+  - first:
+      213: -78144489321085111
+    second: 256x128 Tile Overlays_30
+  - first:
+      213: 6709459963865806534
+    second: 256x128 Tile Overlays_31
+  - first:
+      213: -6744096066991436500
+    second: 256x128 Tile Overlays_32
+  - first:
+      213: 8357430053123381867
+    second: 256x128 Tile Overlays_33
+  - first:
+      213: 5217842768642880886
+    second: 256x128 Tile Overlays_34
+  - first:
+      213: -5969593289131098305
+    second: 256x128 Tile Overlays_35
+  - first:
+      213: -6909831550934105149
+    second: 256x128 Tile Overlays_36
+  - first:
+      213: -4110401338905706038
+    second: 256x128 Tile Overlays_37
+  - first:
+      213: -7071129711577847045
+    second: 256x128 Tile Overlays_38
+  - first:
+      213: -7812646831035889202
+    second: 256x128 Tile Overlays_39
+  - first:
+      213: -4299872037048774960
+    second: 256x128 Tile Overlays_40
+  - first:
+      213: 3301135358095492567
+    second: 256x128 Tile Overlays_41
+  - first:
+      213: 7070563562478143655
+    second: 256x128 Tile Overlays_42
+  - first:
+      213: -4551124400361859622
+    second: 256x128 Tile Overlays_43
+  - first:
+      213: -4878008861695992038
+    second: 256x128 Tile Overlays_44
+  - first:
+      213: 3490751995169634490
+    second: 256x128 Tile Overlays_45
+  - first:
+      213: 4006448708997344011
+    second: 256x128 Tile Overlays_46
+  - first:
+      213: -3708846705210955980
+    second: 256x128 Tile Overlays_47
+  - first:
+      213: 1979397333097448775
+    second: 256x128 Tile Overlays_48
+  - first:
+      213: 7410610980024605475
+    second: 256x128 Tile Overlays_49
+  - first:
+      213: 2862010628688308829
+    second: 256x128 Tile Overlays_50
+  - first:
+      213: -3641817124460631652
+    second: 256x128 Tile Overlays_51
+  - first:
+      213: 4738213037971464148
+    second: 256x128 Tile Overlays_52
+  - first:
+      213: -7748936091543873002
+    second: 256x128 Tile Overlays_53
+  - first:
+      213: -2015535444399429015
+    second: 256x128 Tile Overlays_54
+  - first:
+      213: 4160575401865967444
+    second: 256x128 Tile Overlays_55
+  - first:
+      213: -5351947956048916354
+    second: 256x128 Tile Overlays_56
+  - first:
+      213: 4442868096219223008
+    second: 256x128 Tile Overlays_57
+  - first:
+      213: 8019689486005852950
+    second: 256x128 Tile Overlays_58
+  - first:
+      213: -589727345125961915
+    second: 256x128 Tile Overlays_59
+  - first:
+      213: 5349722700060718594
+    second: 256x128 Tile Overlays_60
+  - first:
+      213: 1984112757270686562
+    second: 256x128 Tile Overlays_61
+  - first:
+      213: -7766458437373254825
+    second: 256x128 Tile Overlays_62
+  - first:
+      213: 771470539832661009
+    second: 256x128 Tile Overlays_63
+  - first:
+      213: -1126529643354140745
+    second: 256x128 Tile Overlays_64
+  - first:
+      213: -6656297485163487176
+    second: 256x128 Tile Overlays_65
+  - first:
+      213: -6466888412183813364
+    second: 256x128 Tile Overlays_66
+  - first:
+      213: 2640486035632228723
+    second: 256x128 Tile Overlays_67
+  - first:
+      213: -1653173282439437519
+    second: 256x128 Tile Overlays_68
+  - first:
+      213: 710760238217954937
+    second: 256x128 Tile Overlays_69
+  - first:
+      213: 850009839429798033
+    second: 256x128 Tile Overlays_70
+  - first:
+      213: -7262995196792165726
+    second: 256x128 Tile Overlays_71
+  - first:
+      213: -7473504728930099964
+    second: 256x128 Tile Overlays_72
+  - first:
+      213: -8228967541588033119
+    second: 256x128 Tile Overlays_73
+  - first:
+      213: -8566970424922775660
+    second: 256x128 Tile Overlays_74
+  - first:
+      213: 6780146765319354414
+    second: 256x128 Tile Overlays_75
+  - first:
+      213: -5672965897166432150
+    second: 256x128 Tile Overlays_76
+  - first:
+      213: 6936529548002437544
+    second: 256x128 Tile Overlays_77
+  - first:
+      213: -3580432438423066541
+    second: 256x128 Tile Overlays_78
+  - first:
+      213: -811018002400519143
+    second: 256x128 Tile Overlays_79
+  - first:
+      213: -5706630760432479518
+    second: 256x128 Tile Overlays_80
+  - first:
+      213: 9102825720625888370
+    second: 256x128 Tile Overlays_81
+  - first:
+      213: -5735702448591324154
+    second: 256x128 Tile Overlays_82
+  - first:
+      213: -2802813652384947883
+    second: 256x128 Tile Overlays_83
+  - first:
+      213: 8792807948595031881
+    second: 256x128 Tile Overlays_84
+  - first:
+      213: 3152847643212697958
+    second: 256x128 Tile Overlays_85
+  - first:
+      213: -5862201541596774051
+    second: 256x128 Tile Overlays_86
+  - first:
+      213: 6540274673656260378
+    second: 256x128 Tile Overlays_87
+  - first:
+      213: 7849379716720608177
+    second: 256x128 Tile Overlays_88
+  - first:
+      213: -4424314384211081437
+    second: 256x128 Tile Overlays_89
+  - first:
+      213: 3639228319935355830
+    second: 256x128 Tile Overlays_90
+  - first:
+      213: -1005741202475173068
+    second: 256x128 Tile Overlays_91
+  - first:
+      213: 8155097707507782811
+    second: 256x128 Tile Overlays_92
+  - first:
+      213: 85085430595327858
+    second: 256x128 Tile Overlays_93
+  - first:
+      213: -8128242312501873039
+    second: 256x128 Tile Overlays_94
+  - first:
+      213: -7268536821772232696
+    second: 256x128 Tile Overlays_95
+  - first:
+      213: 5652017957723111483
+    second: 256x128 Tile Overlays_96
+  - first:
+      213: -3896950145764620284
+    second: 256x128 Tile Overlays_97
+  - first:
+      213: 2228929054711594335
+    second: 256x128 Tile Overlays_98
+  - first:
+      213: 6859744686955038341
+    second: 256x128 Tile Overlays_99
+  - first:
+      213: 5511429301228429987
+    second: 256x128 Tile Overlays_100
+  - first:
+      213: 8757733815144537787
+    second: 256x128 Tile Overlays_101
+  - first:
+      213: -3805676459971710383
+    second: 256x128 Tile Overlays_102
+  - first:
+      213: -1765510473245975460
+    second: 256x128 Tile Overlays_103
+  - first:
+      213: -3682971508338792385
+    second: 256x128 Tile Overlays_104
+  - first:
+      213: 2567159205983539491
+    second: 256x128 Tile Overlays_105
+  - first:
+      213: 3563612400368866361
+    second: 256x128 Tile Overlays_106
+  - first:
+      213: 3070442009922752786
+    second: 256x128 Tile Overlays_107
+  - first:
+      213: 1707169871291814575
+    second: 256x128 Tile Overlays_108
+  - first:
+      213: 2764140509014872925
+    second: 256x128 Tile Overlays_109
+  - first:
+      213: -1327691031221791677
+    second: 256x128 Tile Overlays_110
+  - first:
+      213: -7654928512355782675
+    second: 256x128 Tile Overlays_111
+  - first:
+      213: 7630334506729297783
+    second: 256x128 Tile Overlays_112
+  - first:
+      213: 2313795303019457729
+    second: 256x128 Tile Overlays_113
+  - first:
+      213: 8412537560680296717
+    second: 256x128 Tile Overlays_114
+  - first:
+      213: 2238857357486707102
+    second: 256x128 Tile Overlays_115
+  - first:
+      213: -3837961151305774424
+    second: 256x128 Tile Overlays_116
+  - first:
+      213: -9124726948605836665
+    second: 256x128 Tile Overlays_117
+  - first:
+      213: -9193447348215145105
+    second: 256x128 Tile Overlays_118
+  - first:
+      213: -2949346391346070154
+    second: 256x128 Tile Overlays_119
+  - first:
+      213: 4137039235815426682
+    second: 256x128 Tile Overlays_120
+  - first:
+      213: -1273728352155882971
+    second: 256x128 Tile Overlays_121
+  - first:
+      213: 8805453268500362487
+    second: 256x128 Tile Overlays_122
+  - first:
+      213: 8933072789805550061
+    second: 256x128 Tile Overlays_123
+  - first:
+      213: 4535969574896713982
+    second: 256x128 Tile Overlays_124
+  - first:
+      213: 8336913929891851504
+    second: 256x128 Tile Overlays_125
+  - first:
+      213: -5559294130759684552
+    second: 256x128 Tile Overlays_126
+  - first:
+      213: 3228522427024105204
+    second: 256x128 Tile Overlays_127
+  - first:
+      213: -3699930565511290818
+    second: 256x128 Tile Overlays_128
+  - first:
+      213: 1348232939141916186
+    second: 256x128 Tile Overlays_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaba7a5f21d458a0800000000000000
+      internalID: -6317194375982302466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6f7547f290be170800000000000000
+      internalID: 8208664845232895741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18acf9cca058c0a40800000000000000
+      internalID: 5335785939956386433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599e6a1057b000b10800000000000000
+      internalID: 1945567636190849429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_4
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8b201bb4a9f93a0800000000000000
+      internalID: -6656432074347333446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_5
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd6d2ba256674580800000000000000
+      internalID: -8842986838073446990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_6
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 652
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013ebf6c9a1f6ec10800000000000000
+      internalID: 2082617589195596560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_7
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 664
+        width: 206
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbc76e0e1ec5b0a0800000000000000
+      internalID: -6866355428370428933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_8
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 652
+        width: 165
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8825743c58919a0800000000000000
+      internalID: -6261826733120255820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_9
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 652
+        width: 206
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d6073787240c810800000000000000
+      internalID: 1783498537538973045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_10
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 652
+        width: 176
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de5ff58012afa140800000000000000
+      internalID: 4733179925240962768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f1320b6aaadc8f0800000000000000
+      internalID: -518570749181354191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_12
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e4e5f5929865250800000000000000
+      internalID: 5933080369893887644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672e28546bbc36c60800000000000000
+      internalID: 7810310162501263990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_14
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9713db87756445fa0800000000000000
+      internalID: -5812943877526703751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_15
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ed90aff7046bef0800000000000000
+      internalID: -92815823914541444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_16
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3847e3ada72bc9480800000000000000
+      internalID: -8891035323618921341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_17
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 524
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5cfda7c23d76140800000000000000
+      internalID: 4712967723060020710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_18
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 537
+        width: 206
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e7dbd6271babd30800000000000000
+      internalID: 4448062687007309463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_19
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 524
+        width: 179
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2548c808763d100800000000000000
+      internalID: 131562615934833321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_20
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 524
+        width: 206
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1279ad937c3638e0800000000000000
+      internalID: -1714116140903861731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_21
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 524
+        width: 180
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b700d2b2ab6ad5310800000000000000
+      internalID: 1395454778073219195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_22
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b488994259d67da0800000000000000
+      internalID: -5947327310450883400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_23
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c03607461bbd320800000000000000
+      internalID: 2583853856167496842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_24
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7610bdc1d0d70eb50800000000000000
+      internalID: 6620428947506790759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_25
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a0a8213732c95f0800000000000000
+      internalID: -748684460911097219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_26
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b115367fc33d26a0800000000000000
+      internalID: -6472460123327098445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_27
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015a156cfed46800800000000000000
+      internalID: 604853425583837445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_28
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 396
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5916ee5aec39660800000000000000
+      internalID: 7391478625509414311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_29
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 408
+        width: 206
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d2017dac28e2750800000000000000
+      internalID: 6282102337931586840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_30
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 396
+        width: 165
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947ccd040006aeef0800000000000000
+      internalID: -78144489321085111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_31
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 396
+        width: 206
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c63de4f94acc1d50800000000000000
+      internalID: 6709459963865806534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_32
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 396
+        width: 176
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dcddbdb582862a0800000000000000
+      internalID: -6744096066991436500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 362
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ad79f8a5e8bf370800000000000000
+      internalID: 8357430053123381867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 346
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675bcce4a50896840800000000000000
+      internalID: 5217842768642880886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 288
+        width: 220
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ff8c3288eb72da0800000000000000
+      internalID: -5969593289131098305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_36
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 362
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c349c470d85b10a0800000000000000
+      internalID: -6909831550934105149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 361
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac14c3692cbe4f6c0800000000000000
+      internalID: -4110401338905706038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_38
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 181
+        width: 303
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa21b4edfc4edd90800000000000000
+      internalID: -7071129711577847045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_39
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 287
+        width: 450
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec94680b917e39390800000000000000
+      internalID: -7812646831035889202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_40
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 287
+        width: 193
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de821cf929c354c0800000000000000
+      internalID: -4299872037048774960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 349
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d583c63e1dffcd20800000000000000
+      internalID: 3301135358095492567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_42
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 344
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8845f3910bf1260800000000000000
+      internalID: 7070563562478143655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 343
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad591d3887827d0c0800000000000000
+      internalID: -4551124400361859622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 336
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f176bf8c4dd4cb0800000000000000
+      internalID: -4878008861695992038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_45
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 254
+        width: 194
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8721fd174a17030800000000000000
+      internalID: 3490751995169634490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_46
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 255
+        width: 194
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0beb9eafd3c99730800000000000000
+      internalID: 4006448708997344011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_47
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 340
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437e5896297878cc0800000000000000
+      internalID: -3708846705210955980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_48
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 339
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74501ac136b387b10800000000000000
+      internalID: 1979397333097448775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_49
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 320
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd9f85c67c7d660800000000000000
+      internalID: 7410610980024605475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_50
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 314
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5aeb52d087e7b720800000000000000
+      internalID: 2862010628688308829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99e697de9aa57dc0800000000000000
+      internalID: -3641817124460631652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 314
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfd96667a381c140800000000000000
+      internalID: 4738213037971464148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 317
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ad25c2eaf367490800000000000000
+      internalID: -7748936091543873002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_54
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 318
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96aec5c21316704e0800000000000000
+      internalID: -2015535444399429015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_55
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 317
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457f279c8455db930800000000000000
+      internalID: 4160575401865967444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_56
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 313
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70935790bf0ab5b0800000000000000
+      internalID: -5351947956048916354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_57
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 290
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e310138efc38ad30800000000000000
+      internalID: 4442868096219223008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_58
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 255
+        width: 258
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b505ee819ab4f60800000000000000
+      internalID: 8019689486005852950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_59
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 306
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fce67aa1ed0d7f0800000000000000
+      internalID: -589727345125961915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_60
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 306
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20676ff93780e3a40800000000000000
+      internalID: 5349722700060718594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_61
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 307
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ba07b5a0cf88b10800000000000000
+      internalID: 1984112757270686562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_62
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 285
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753288d133ff73490800000000000000
+      internalID: -7766458437373254825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_63
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 289
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11497695e50d4ba00800000000000000
+      internalID: 771470539832661009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_64
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 288
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfcdea0243cd50f0800000000000000
+      internalID: -1126529643354140745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 281
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830218d24b410a3a0800000000000000
+      internalID: -6656297485163487176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_66
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 289
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03a1bd804ff046a0800000000000000
+      internalID: -6466888412183813364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_67
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 279
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3790d3c3f04e4a420800000000000000
+      internalID: 2640486035632228723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_68
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 275
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133e70498afbe09e0800000000000000
+      internalID: -1653173282439437519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_69
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 286
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976047fbba02dd900800000000000000
+      internalID: 710760238217954937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_70
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 177
+        width: 177
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ccc60277dbcb00800000000000000
+      internalID: 850009839429798033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_71
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 177
+        width: 177
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaa5d97958a43b90800000000000000
+      internalID: -7262995196792165726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_72
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 178
+        width: 176
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d5bec9b07c84890800000000000000
+      internalID: -7473504728930099964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_73
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 178
+        width: 176
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a10d6fae95dccd80800000000000000
+      internalID: -8228967541588033119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_74
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 186
+        width: 114
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f533dc9c10c1980800000000000000
+      internalID: -8566970424922775660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_75
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 215
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28bfdf6f8be71e50800000000000000
+      internalID: 6780146765319354414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_76
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 133
+        width: 237
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a685d7cb2939541b0800000000000000
+      internalID: -5672965897166432150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_77
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 146
+        width: 252
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9afa26fd0834060800000000000000
+      internalID: 6936529548002437544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_78
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 130
+        width: 257
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e18dcaafbf4ec0800000000000000
+      internalID: -3580432438423066541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_79
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 128
+        width: 255
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c587c7c6faeb4f0800000000000000
+      internalID: -811018002400519143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_80
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 160
+        width: 220
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2da14fe89fdc0b0800000000000000
+      internalID: -5706630760432479518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_81
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 233
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf13a93cbb35e70800000000000000
+      internalID: 9102825720625888370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_82
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 184
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c30661301b660b0800000000000000
+      internalID: -5735702448591324154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_83
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 184
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551eaf545d76a19d0800000000000000
+      internalID: -2802813652384947883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_84
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 186
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fec323e34560a70800000000000000
+      internalID: 8792807948595031881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_85
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 187
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661de9c1a3a21cb20800000000000000
+      internalID: 3152847643212697958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_86
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 188
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d518067d1c645aea0800000000000000
+      internalID: -5862201541596774051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_87
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 196
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17e3c0f929b3ca50800000000000000
+      internalID: 6540274673656260378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_88
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 193
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c94ab3499eec60800000000000000
+      internalID: 7849379716720608177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_89
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 167
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3278272328da992c0800000000000000
+      internalID: -4424314384211081437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_90
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 155
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbd94220e2218230800000000000000
+      internalID: 3639228319935355830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_91
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 155
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b3e7a74b3ea02f0800000000000000
+      internalID: -1005741202475173068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_92
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 167
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b949a9c482abc2170800000000000000
+      internalID: 8155097707507782811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_93
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 167
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27712329fb84e2100800000000000000
+      internalID: 85085430595327858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_94
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 148
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176b60b9eaea23f80800000000000000
+      internalID: -8128242312501873039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_95
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 149
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8085b6d5548f02b90800000000000000
+      internalID: -7268536821772232696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_96
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 157
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30073a0360007e40800000000000000
+      internalID: 5652017957723111483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_97
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 156
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4080b464d704be9c0800000000000000
+      internalID: -3896950145764620284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_98
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 171
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5db1a77a2fbeee10800000000000000
+      internalID: 2228929054711594335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_99
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 148
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58604d3c275b23f50800000000000000
+      internalID: 6859744686955038341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_100
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 151
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a26668afb78c7c40800000000000000
+      internalID: 5511429301228429987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_101
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 147
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbedd112188b98970800000000000000
+      internalID: 8757733815144537787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_102
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 158
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152f1594c658f2bc0800000000000000
+      internalID: -3805676459971710383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_103
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 134
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c11f22495af77e0800000000000000
+      internalID: -1765510473245975460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_104
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 128
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38e4972de473ecc0800000000000000
+      internalID: -3682971508338792385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 91
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321d58a42b160a320800000000000000
+      internalID: 2567159205983539491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_106
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934d929e89e747130800000000000000
+      internalID: 3563612400368866361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_107
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 35
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211d1e87db66c9a20800000000000000
+      internalID: 3070442009922752786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_108
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa21995f3f511b710800000000000000
+      internalID: 1707169871291814575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_109
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 35
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53591dd5233c5620800000000000000
+      internalID: 2764140509014872925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_110
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3449d80aa08139de0800000000000000
+      internalID: -1327691031221791677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_111
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 35
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def2608531b34c590800000000000000
+      internalID: -7654928512355782675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_112
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777510f7ec464e960800000000000000
+      internalID: 7630334506729297783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_113
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 35
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc217fa1904c1020800000000000000
+      internalID: 2313795303019457729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_114
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01faf307565fb470800000000000000
+      internalID: 8412537560680296717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_115
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 35
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91d3c797e4021f10800000000000000
+      internalID: 2238857357486707102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_116
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 81
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa8ba2daa2dcbac0800000000000000
+      internalID: -3837961151305774424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_117
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 0
+        width: 1371
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7824ae36f257e5180800000000000000
+      internalID: -9124726948605836665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_118
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d116488505a6080800000000000000
+      internalID: -9193447348215145105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_119
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dbc385511d117d0800000000000000
+      internalID: -2949346391346070154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_120
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac1a81447b96930800000000000000
+      internalID: 4137039235815426682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_121
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52aa76defcec25ee0800000000000000
+      internalID: -1273728352155882971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_122
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4344b2811433a70800000000000000
+      internalID: 8805453268500362487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_123
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 53
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de941157f56a8fb70800000000000000
+      internalID: 8933072789805550061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_124
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0c2b7bb4003fe30800000000000000
+      internalID: 4535969574896713982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_125
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fca5326c0ba2b370800000000000000
+      internalID: 8336913929891851504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_126
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ea726417b69d2b0800000000000000
+      internalID: -5559294130759684552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_127
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe572cba040ecc20800000000000000
+      internalID: 3228522427024105204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_128
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30e615f0c437acc0800000000000000
+      internalID: -3699930565511290818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 256x128 Tile Overlays_129
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 0
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16e80407b2e5b210800000000000000
+      internalID: 1348232939141916186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      256x128 Tile Overlays_0: -6317194375982302466
+      256x128 Tile Overlays_1: 8208664845232895741
+      256x128 Tile Overlays_10: 4733179925240962768
+      256x128 Tile Overlays_100: 5511429301228429987
+      256x128 Tile Overlays_101: 8757733815144537787
+      256x128 Tile Overlays_102: -3805676459971710383
+      256x128 Tile Overlays_103: -1765510473245975460
+      256x128 Tile Overlays_104: -3682971508338792385
+      256x128 Tile Overlays_105: 2567159205983539491
+      256x128 Tile Overlays_106: 3563612400368866361
+      256x128 Tile Overlays_107: 3070442009922752786
+      256x128 Tile Overlays_108: 1707169871291814575
+      256x128 Tile Overlays_109: 2764140509014872925
+      256x128 Tile Overlays_11: -518570749181354191
+      256x128 Tile Overlays_110: -1327691031221791677
+      256x128 Tile Overlays_111: -7654928512355782675
+      256x128 Tile Overlays_112: 7630334506729297783
+      256x128 Tile Overlays_113: 2313795303019457729
+      256x128 Tile Overlays_114: 8412537560680296717
+      256x128 Tile Overlays_115: 2238857357486707102
+      256x128 Tile Overlays_116: -3837961151305774424
+      256x128 Tile Overlays_117: -9124726948605836665
+      256x128 Tile Overlays_118: -9193447348215145105
+      256x128 Tile Overlays_119: -2949346391346070154
+      256x128 Tile Overlays_12: 5933080369893887644
+      256x128 Tile Overlays_120: 4137039235815426682
+      256x128 Tile Overlays_121: -1273728352155882971
+      256x128 Tile Overlays_122: 8805453268500362487
+      256x128 Tile Overlays_123: 8933072789805550061
+      256x128 Tile Overlays_124: 4535969574896713982
+      256x128 Tile Overlays_125: 8336913929891851504
+      256x128 Tile Overlays_126: -5559294130759684552
+      256x128 Tile Overlays_127: 3228522427024105204
+      256x128 Tile Overlays_128: -3699930565511290818
+      256x128 Tile Overlays_129: 1348232939141916186
+      256x128 Tile Overlays_13: 7810310162501263990
+      256x128 Tile Overlays_14: -5812943877526703751
+      256x128 Tile Overlays_15: -92815823914541444
+      256x128 Tile Overlays_16: -8891035323618921341
+      256x128 Tile Overlays_17: 4712967723060020710
+      256x128 Tile Overlays_18: 4448062687007309463
+      256x128 Tile Overlays_19: 131562615934833321
+      256x128 Tile Overlays_2: 5335785939956386433
+      256x128 Tile Overlays_20: -1714116140903861731
+      256x128 Tile Overlays_21: 1395454778073219195
+      256x128 Tile Overlays_22: -5947327310450883400
+      256x128 Tile Overlays_23: 2583853856167496842
+      256x128 Tile Overlays_24: 6620428947506790759
+      256x128 Tile Overlays_25: -748684460911097219
+      256x128 Tile Overlays_26: -6472460123327098445
+      256x128 Tile Overlays_27: 604853425583837445
+      256x128 Tile Overlays_28: 7391478625509414311
+      256x128 Tile Overlays_29: 6282102337931586840
+      256x128 Tile Overlays_3: 1945567636190849429
+      256x128 Tile Overlays_30: -78144489321085111
+      256x128 Tile Overlays_31: 6709459963865806534
+      256x128 Tile Overlays_32: -6744096066991436500
+      256x128 Tile Overlays_33: 8357430053123381867
+      256x128 Tile Overlays_34: 5217842768642880886
+      256x128 Tile Overlays_35: -5969593289131098305
+      256x128 Tile Overlays_36: -6909831550934105149
+      256x128 Tile Overlays_37: -4110401338905706038
+      256x128 Tile Overlays_38: -7071129711577847045
+      256x128 Tile Overlays_39: -7812646831035889202
+      256x128 Tile Overlays_4: -6656432074347333446
+      256x128 Tile Overlays_40: -4299872037048774960
+      256x128 Tile Overlays_41: 3301135358095492567
+      256x128 Tile Overlays_42: 7070563562478143655
+      256x128 Tile Overlays_43: -4551124400361859622
+      256x128 Tile Overlays_44: -4878008861695992038
+      256x128 Tile Overlays_45: 3490751995169634490
+      256x128 Tile Overlays_46: 4006448708997344011
+      256x128 Tile Overlays_47: -3708846705210955980
+      256x128 Tile Overlays_48: 1979397333097448775
+      256x128 Tile Overlays_49: 7410610980024605475
+      256x128 Tile Overlays_5: -8842986838073446990
+      256x128 Tile Overlays_50: 2862010628688308829
+      256x128 Tile Overlays_51: -3641817124460631652
+      256x128 Tile Overlays_52: 4738213037971464148
+      256x128 Tile Overlays_53: -7748936091543873002
+      256x128 Tile Overlays_54: -2015535444399429015
+      256x128 Tile Overlays_55: 4160575401865967444
+      256x128 Tile Overlays_56: -5351947956048916354
+      256x128 Tile Overlays_57: 4442868096219223008
+      256x128 Tile Overlays_58: 8019689486005852950
+      256x128 Tile Overlays_59: -589727345125961915
+      256x128 Tile Overlays_6: 2082617589195596560
+      256x128 Tile Overlays_60: 5349722700060718594
+      256x128 Tile Overlays_61: 1984112757270686562
+      256x128 Tile Overlays_62: -7766458437373254825
+      256x128 Tile Overlays_63: 771470539832661009
+      256x128 Tile Overlays_64: -1126529643354140745
+      256x128 Tile Overlays_65: -6656297485163487176
+      256x128 Tile Overlays_66: -6466888412183813364
+      256x128 Tile Overlays_67: 2640486035632228723
+      256x128 Tile Overlays_68: -1653173282439437519
+      256x128 Tile Overlays_69: 710760238217954937
+      256x128 Tile Overlays_7: -6866355428370428933
+      256x128 Tile Overlays_70: 850009839429798033
+      256x128 Tile Overlays_71: -7262995196792165726
+      256x128 Tile Overlays_72: -7473504728930099964
+      256x128 Tile Overlays_73: -8228967541588033119
+      256x128 Tile Overlays_74: -8566970424922775660
+      256x128 Tile Overlays_75: 6780146765319354414
+      256x128 Tile Overlays_76: -5672965897166432150
+      256x128 Tile Overlays_77: 6936529548002437544
+      256x128 Tile Overlays_78: -3580432438423066541
+      256x128 Tile Overlays_79: -811018002400519143
+      256x128 Tile Overlays_8: -6261826733120255820
+      256x128 Tile Overlays_80: -5706630760432479518
+      256x128 Tile Overlays_81: 9102825720625888370
+      256x128 Tile Overlays_82: -5735702448591324154
+      256x128 Tile Overlays_83: -2802813652384947883
+      256x128 Tile Overlays_84: 8792807948595031881
+      256x128 Tile Overlays_85: 3152847643212697958
+      256x128 Tile Overlays_86: -5862201541596774051
+      256x128 Tile Overlays_87: 6540274673656260378
+      256x128 Tile Overlays_88: 7849379716720608177
+      256x128 Tile Overlays_89: -4424314384211081437
+      256x128 Tile Overlays_9: 1783498537538973045
+      256x128 Tile Overlays_90: 3639228319935355830
+      256x128 Tile Overlays_91: -1005741202475173068
+      256x128 Tile Overlays_92: 8155097707507782811
+      256x128 Tile Overlays_93: 85085430595327858
+      256x128 Tile Overlays_94: -8128242312501873039
+      256x128 Tile Overlays_95: -7268536821772232696
+      256x128 Tile Overlays_96: 5652017957723111483
+      256x128 Tile Overlays_97: -3896950145764620284
+      256x128 Tile Overlays_98: 2228929054711594335
+      256x128 Tile Overlays_99: 6859744686955038341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

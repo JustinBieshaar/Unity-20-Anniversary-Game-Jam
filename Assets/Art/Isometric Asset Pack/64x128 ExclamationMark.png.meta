@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: b0d3c5f4673fe7a45aa2ec8cbb1d7cd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4162486589632819642
+    second: 64x128 ExclamationMark_0
+  - first:
+      213: 5820776796661630669
+    second: 64x128 ExclamationMark_1
+  - first:
+      213: -1747058421798097968
+    second: 64x128 ExclamationMark_2
+  - first:
+      213: 1900369631075013735
+    second: 64x128 ExclamationMark_3
+  - first:
+      213: -5116920133208446540
+    second: 64x128 ExclamationMark_4
+  - first:
+      213: 7839763799056205058
+    second: 64x128 ExclamationMark_5
+  - first:
+      213: -9135745239335728092
+    second: 64x128 ExclamationMark_6
+  - first:
+      213: -7800993387957175382
+    second: 64x128 ExclamationMark_7
+  - first:
+      213: -4080140557199454682
+    second: 64x128 ExclamationMark_8
+  - first:
+      213: 2500421707784804586
+    second: 64x128 ExclamationMark_9
+  - first:
+      213: -6418506222603181744
+    second: 64x128 ExclamationMark_10
+  - first:
+      213: -1970809375091603077
+    second: 64x128 ExclamationMark_11
+  - first:
+      213: 7013511728582470676
+    second: 64x128 ExclamationMark_12
+  - first:
+      213: 6706627580356540178
+    second: 64x128 ExclamationMark_13
+  - first:
+      213: 3010191489798884937
+    second: 64x128 ExclamationMark_14
+  - first:
+      213: -7108083702700012652
+    second: 64x128 ExclamationMark_15
+  - first:
+      213: 7632826029280066683
+    second: 64x128 ExclamationMark_16
+  - first:
+      213: 1207273288965023198
+    second: 64x128 ExclamationMark_17
+  - first:
+      213: 1051012396793466941
+    second: 64x128 ExclamationMark_18
+  - first:
+      213: -5229277836401082407
+    second: 64x128 ExclamationMark_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 29
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1346ddf7f14c930800000000000000
+      internalID: 4162486589632819642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 29
+        width: 54
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc64ad128ad87c050800000000000000
+      internalID: 5820776796661630669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 29
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbaed62f9331c7e0800000000000000
+      internalID: -1747058421798097968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 29
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7649a226c187f5a10800000000000000
+      internalID: 1900369631075013735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 29
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9e01cdf3c0df8b0800000000000000
+      internalID: -5116920133208446540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 29
+        width: 32
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20546bd63af6ccc60800000000000000
+      internalID: 7839763799056205058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 29
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c8deaab10573180800000000000000
+      internalID: -9135745239335728092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 29
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab34a758dd4db390800000000000000
+      internalID: -7800993387957175382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 29
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e467ed7cd6067c0800000000000000
+      internalID: -4080140557199454682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_9
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 29
+        width: 54
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae85031ab4843b220800000000000000
+      internalID: 2500421707784804586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0516a15e892ece6a0800000000000000
+      internalID: -6418506222603181744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79c7ada05746a4e0800000000000000
+      internalID: -1970809375091603077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca13a02cff45160800000000000000
+      internalID: 7013511728582470676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 5
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2173df7404ab21d50800000000000000
+      internalID: 6706627580356540178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ecd57163956c920800000000000000
+      internalID: 3010191489798884937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 7
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b82da58830b5d90800000000000000
+      internalID: -7108083702700012652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cf79b45de3de960800000000000000
+      internalID: 7632826029280066683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 5
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5e39fe8a811c010800000000000000
+      internalID: 1207273288965023198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_18
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 4
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d301865d432f59e00800000000000000
+      internalID: 1051012396793466941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64x128 ExclamationMark_19
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 3
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df7d71838fdd67b0800000000000000
+      internalID: -5229277836401082407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      64x128 ExclamationMark_0: 4162486589632819642
+      64x128 ExclamationMark_1: 5820776796661630669
+      64x128 ExclamationMark_10: -6418506222603181744
+      64x128 ExclamationMark_11: -1970809375091603077
+      64x128 ExclamationMark_12: 7013511728582470676
+      64x128 ExclamationMark_13: 6706627580356540178
+      64x128 ExclamationMark_14: 3010191489798884937
+      64x128 ExclamationMark_15: -7108083702700012652
+      64x128 ExclamationMark_16: 7632826029280066683
+      64x128 ExclamationMark_17: 1207273288965023198
+      64x128 ExclamationMark_18: 1051012396793466941
+      64x128 ExclamationMark_19: -5229277836401082407
+      64x128 ExclamationMark_2: -1747058421798097968
+      64x128 ExclamationMark_3: 1900369631075013735
+      64x128 ExclamationMark_4: -5116920133208446540
+      64x128 ExclamationMark_5: 7839763799056205058
+      64x128 ExclamationMark_6: -9135745239335728092
+      64x128 ExclamationMark_7: -7800993387957175382
+      64x128 ExclamationMark_8: -4080140557199454682
+      64x128 ExclamationMark_9: 2500421707784804586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
