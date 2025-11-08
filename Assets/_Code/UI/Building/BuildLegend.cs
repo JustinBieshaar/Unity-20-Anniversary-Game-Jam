@@ -1,4 +1,5 @@
-﻿using Assets._Code.Building;
+﻿using Assets._Code.Blobs;
+using Assets._Code.Building;
 using Assets._Code.Building.Data;
 using System;
 using System.Collections.Generic;
@@ -98,6 +99,7 @@ namespace Assets._Code.UI.Building
 			if (m_activeButtonMap == buttonMap)
 			{
 				m_activeButtonMap = null;
+				BlobManager.Instance.Distribute();
 				return;
 			}
 

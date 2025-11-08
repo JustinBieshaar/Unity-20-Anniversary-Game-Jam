@@ -21,6 +21,9 @@ namespace Assets._Code.Blobs
 		[SerializeField] private Tilemap m_ground;
 		[SerializeField] private Tilemap m_environment;
 
+		private static BlobManager s_instance;
+		public static BlobManager Instance => s_instance;
+
 		private List<Blob> m_blobs = new List<Blob>();
 
 		private Dictionary<Vector3Int, bool> m_visited = new();
@@ -32,10 +35,11 @@ namespace Assets._Code.Blobs
 
 		private void Start ()
 		{
+			s_instance = this;
 			Distribute();
 		}
 
-		private void Distribute ()
+		public void Distribute ()
 		{
 			ClearBlobs();
 			var result = FindRegions();
@@ -77,7 +81,7 @@ namespace Assets._Code.Blobs
 			int minTiles = blob.TileRequirement;
 			int tilesPerBlob = blob.TileRequirementPerBlob;
 			int minTrees = blob.MinTreeRequirement;
-			int treeSaturation = blob.MaxTreeRequirement;
+			int treeSaturation = blob.TreeSaturation;
 
 			// Must meet basic requirements
 			if (tileCount < minTiles || treeCount < minTrees)
@@ -88,11 +92,10 @@ namespace Assets._Code.Blobs
 
 			// Compute tree factor: helps early, suppresses late
 			float treeFactor = 1.0f;
-			if(treeSaturation > 0)
+			if (treeSaturation > 0)
 			{
-				treeFactor = (treeCount - minTrees) / (treeSaturation + treeCount); 
+				treeFactor = (float)treeSaturation / (treeSaturation + (float)treeCount);
 			}
-			
 
 			// Combine the two
 			float blobScore = areaFactor * treeFactor;
@@ -151,7 +154,6 @@ namespace Assets._Code.Blobs
 					if (tile == null) continue;
 
 					TileType neighborType = m_tileDatabase.GetType(tile);
-					Debug.Log($"neighbour: {neighbor.x}, {neighbor.y} is of type: {neighborType} and tile: {tile.sprite}");
 					if (neighborType != type) continue;
 					if (neighborType == TileType.None) continue;
 

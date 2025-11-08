@@ -19,7 +19,7 @@ namespace Assets._Code.Blobs.Data
 		[SerializeField] private int m_minTiles;
 		[SerializeField] private int m_tilesPerBlob;
 		[SerializeField] private int m_minTrees;
-		[SerializeField] private int m_maxTrees;
+		[SerializeField] private int m_treeSaturation;
 
 		public TileType RegionType => m_regionType;
 		public Color Color => m_color;
@@ -28,6 +28,6 @@ namespace Assets._Code.Blobs.Data
 		public int TileRequirement => m_minTiles;
 		public int TileRequirementPerBlob => m_tilesPerBlob;
 		public int MinTreeRequirement => m_minTrees;
-		public int MaxTreeRequirement => m_maxTrees;
+		public int TreeSaturation => m_treeSaturation;
 	}
 }
