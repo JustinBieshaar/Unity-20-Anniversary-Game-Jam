@@ -17,6 +17,7 @@ namespace Assets._Code.Blobs
 		[Header("Movement")]
 		[SerializeField] private float m_moveSpeed = 2f;
 		[SerializeField] private Vector2 m_idleTimeRange = new Vector2(1.5f, 4f);
+		[SerializeField] private float m_randomOffset = 0.125f;
 
 		private GroundRegion m_region;
 
@@ -47,6 +48,9 @@ namespace Assets._Code.Blobs
 
 				Vector3Int next = neighbors[current][Random.Range(0, neighbors[current].Count)];
 				Vector3 target = world[next];
+
+				target.x += Random.Range(0, m_randomOffset);
+				target.y += Random.Range(0, m_randomOffset);
 
 				// DOTween sequence for squash → move → stretch
 				Sequence seq = DOTween.Sequence();

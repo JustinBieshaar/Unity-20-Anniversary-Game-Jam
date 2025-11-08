@@ -161,4 +161,5 @@ MonoBehaviour:
   m_renderer: {fileID: 8241252578642530124}
   m_animator: {fileID: 7594901678955622961}
   m_moveSpeed: 1
-  m_idleTimeRange: {x: 1.5, y: 4}
+  m_idleTimeRange: {x: 0.7, y: 4}
+  m_randomOffset: 0.25
