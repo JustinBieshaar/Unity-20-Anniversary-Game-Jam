@@ -13,9 +13,17 @@ namespace Assets._Code.Building.Data
 		{
 			public Tile Tile;
 			public List<Tile> AcceptableTiles;
+			public bool BlockByEnvironment;
 
-			public bool CanPlace(Tilemap ground, Vector3Int pos)
+			public bool CanPlace(Tilemap ground, Tilemap environment, Vector3Int pos)
 			{
+				if (BlockByEnvironment)
+				{
+					if (environment.HasTile(pos))
+					{
+						return false;
+					}
+				}
 				if (AcceptableTiles == null || AcceptableTiles.Count == 0)
 					return true;
 

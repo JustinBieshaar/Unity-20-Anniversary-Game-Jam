@@ -13,15 +13,38 @@ MonoBehaviour:
   m_Name: EnvironmentTiles
   m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.Data.BuildDatabase
   m_tiles:
-  - {fileID: 11400000, guid: a405e8aa5d8cbe445a2ca399d2c5559d, type: 2}
-  - {fileID: 11400000, guid: ed8142387bfffb043ac8d9b689c6318b, type: 2}
-  - {fileID: 11400000, guid: cfc3b4c920a38e5498e1aa008a7a4b6b, type: 2}
-  - {fileID: 11400000, guid: b4da21ac68aa3004b9cdf36849d12297, type: 2}
-  - {fileID: 11400000, guid: 87b234b4b857bf04c85fedd7922a13f0, type: 2}
-  - {fileID: 11400000, guid: 56924381bce7efc4ea96fffb563205b8, type: 2}
-  - {fileID: 11400000, guid: 0de6a36322e5ef34ca44b4b79742efec, type: 2}
-  - {fileID: 11400000, guid: 88e21c1dc12f4034680b6963e0e44013, type: 2}
-  - {fileID: 11400000, guid: 7828196d456323c42a964cb026cd9eb1, type: 2}
-  - {fileID: 11400000, guid: c2fd4293f72b13a419cadba2867debc8, type: 2}
-  - {fileID: 11400000, guid: 3741b7492e1815b4daddcbc25c24f5fb, type: 2}
-  - {fileID: 11400000, guid: 493dfc271a1bb1243b6654fcc7b36367, type: 2}
+  - Tile: {fileID: 11400000, guid: a405e8aa5d8cbe445a2ca399d2c5559d, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: ed8142387bfffb043ac8d9b689c6318b, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: cfc3b4c920a38e5498e1aa008a7a4b6b, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: b4da21ac68aa3004b9cdf36849d12297, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 87b234b4b857bf04c85fedd7922a13f0, type: 2}
+    AcceptableTiles: []
+  - Tile: {fileID: 11400000, guid: 56924381bce7efc4ea96fffb563205b8, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 0de6a36322e5ef34ca44b4b79742efec, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 88e21c1dc12f4034680b6963e0e44013, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 7828196d456323c42a964cb026cd9eb1, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: c2fd4293f72b13a419cadba2867debc8, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 3741b7492e1815b4daddcbc25c24f5fb, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+  - Tile: {fileID: 11400000, guid: 493dfc271a1bb1243b6654fcc7b36367, type: 2}
+    AcceptableTiles:
+    - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}

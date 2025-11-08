@@ -15,11 +15,16 @@ MonoBehaviour:
   m_tiles:
   - Tile: {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
     AcceptableTiles: []
+    BlockByEnvironment: 1
   - Tile: {fileID: 11400000, guid: 5d2848061293a6543b066e6dd6ae0506, type: 2}
     AcceptableTiles: []
-  - Tile: {fileID: 11400000, guid: 4292bda2e0ac1954dba0391a1f3538c2, type: 2}
-    AcceptableTiles: []
-  - Tile: {fileID: 11400000, guid: 67adf868b0ce5604da3227d990635367, type: 2}
-    AcceptableTiles: []
+    BlockByEnvironment: 1
   - Tile: {fileID: 11400000, guid: de382093e1a8cb7489a6ceef8d4dae42, type: 2}
     AcceptableTiles: []
+    BlockByEnvironment: 1
+  - Tile: {fileID: 11400000, guid: 4292bda2e0ac1954dba0391a1f3538c2, type: 2}
+    AcceptableTiles: []
+    BlockByEnvironment: 1
+  - Tile: {fileID: 11400000, guid: 67adf868b0ce5604da3227d990635367, type: 2}
+    AcceptableTiles: []
+    BlockByEnvironment: 1

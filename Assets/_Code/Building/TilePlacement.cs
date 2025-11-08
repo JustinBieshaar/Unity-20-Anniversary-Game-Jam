@@ -26,8 +26,12 @@ namespace Assets._Code.Building
 
 		private List<Vector3Int> m_animPositions = new List<Vector3Int>();
 		private bool m_demolishMode;
+		private bool m_isFieldPlaceMode;
+
+		private Vector3Int? m_dragStartPos;
 
 		public bool IsInDemolishMode => m_demolishMode;
+		public bool IsInFieldMode => m_isFieldPlaceMode;
 
 		private Tilemap m_currentDemolishTileMap;
 
@@ -60,7 +64,14 @@ namespace Assets._Code.Building
 				CheckDemolish();
 				return;
 			}
-			if(m_tilemap == null || m_tileToPlace == null) return;
+
+			if (m_isFieldPlaceMode)
+			{
+				HandleFieldPlacement();
+				return;
+			}
+
+			if (m_tilemap == null || m_tileToPlace == null) return;
 
 			Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			mouseWorldPos.z = 0;
@@ -84,6 +95,52 @@ namespace Assets._Code.Building
 					StartCoroutine(AnimateTilePlacement(cellPos));
 				}
 
+			}
+		}
+
+		private void HandleFieldPlacement ()
+		{
+			if (m_tilemap == null || m_tileToPlace == null) return;
+
+			Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			mouseWorldPos.z = 0;
+			Vector3Int cellPos = m_tilemap.WorldToCell(mouseWorldPos);
+			cellPos.z = 0;
+
+			if (Input.GetMouseButtonDown(0))
+			{
+				m_dragStartPos = cellPos;
+			}
+
+			if (m_dragStartPos.HasValue)
+			{
+				// Draw rectangle preview
+				var start = m_dragStartPos.Value;
+				var min = Vector3Int.Min(start, cellPos);
+				var max = Vector3Int.Max(start, cellPos);
+
+				m_tilePlacementHover.SetRectPreview(min, max, m_tileToPlace, m_tilemap);
+			} else
+			{
+				m_tilePlacementHover.SetPosition(cellPos, m_tileToPlace, m_tilemap);
+			}
+
+			if (Input.GetMouseButtonUp(0) && m_dragStartPos.HasValue)
+			{
+				m_tilePlacementHover.ClearPreview();
+				if (!m_tilePlacementHover.CanBePlaced)
+				{
+					m_dragStartPos = null;
+					return;
+				}
+
+				var start = m_dragStartPos.Value;
+				var min = Vector3Int.Min(start, cellPos);
+				var max = Vector3Int.Max(start, cellPos);
+
+				StartCoroutine(PlaceFieldTiles(min, max));
+
+				m_dragStartPos = null;
 			}
 		}
 
@@ -149,11 +206,34 @@ namespace Assets._Code.Building
 			m_animPositions.Remove(cellPos);
 		}
 
+		private System.Collections.IEnumerator PlaceFieldTiles (Vector3Int min, Vector3Int max)
+		{
+			for (int x = min.x; x <= max.x; x++)
+			{
+				for (int y = min.y; y <= max.y; y++)
+				{
+					Vector3Int pos = new Vector3Int(x, y, 0);
+					if (m_tilemap.GetTile(pos) != m_tileToPlace.Tile && !m_animPositions.Contains(pos))
+					{
+						StartCoroutine(AnimateTilePlacement(pos));
+						yield return new WaitForSeconds(0.01f); // small stagger for performance/look
+					}
+				}
+			}
+		}
+
 		public void ToggleDemolish ()
 		{
 			m_currentDemolishTileMap = null;
 			m_demolishMode = !m_demolishMode;
 			m_tilePlacementHover.ToggleDemolishMode();
+		}
+
+		public void ToggleFieldPlaceMode ()
+		{
+			m_isFieldPlaceMode = !m_isFieldPlaceMode;
+
+			m_tilePlacementHover.ClearPreview();
 		}
 	}
 }
