@@ -100,6 +100,7 @@ namespace Assets._Code.Building
 				m_previewTiles[i].gameObject.SetActive(i < neededCount);
 
 			m_canBePlaced = true;
+			bool hasNeighboringTile = false;
 			int index = 0;
 			for (int x = min.x; x <= max.x; x++)
 			{
@@ -115,12 +116,12 @@ namespace Assets._Code.Building
 
 					bool canPlace = tileRule.CanPlace(m_groundTileMap, m_environmentTileMap, cell);
 
-					if (!m_groundTileMap.HasTile(cell + Vector3Int.right) &&
-						!m_groundTileMap.HasTile(cell + Vector3Int.left) &&
-						!m_groundTileMap.HasTile(cell + Vector3Int.up) &&
-						!m_groundTileMap.HasTile(cell + Vector3Int.down))
+					if (m_groundTileMap.HasTile(cell + Vector3Int.right) ||
+						m_groundTileMap.HasTile(cell + Vector3Int.left) ||
+						m_groundTileMap.HasTile(cell + Vector3Int.up) ||
+						m_groundTileMap.HasTile(cell + Vector3Int.down))
 					{
-						m_canBePlaced = false;
+						hasNeighboringTile = true;
 					}
 
 					sr.color = (canPlace ? m_validColor : m_inValidColor) * new Color(1, 1, 1, 0.7f);
@@ -129,6 +130,14 @@ namespace Assets._Code.Building
 					{
 						m_canBePlaced = false;
 					}
+				}
+			}
+			if(m_canBePlaced && !hasNeighboringTile)
+			{
+				m_canBePlaced = false;
+				foreach (var item in m_previewTiles)
+				{
+					item.color = m_inValidColor;
 				}
 			}
 
