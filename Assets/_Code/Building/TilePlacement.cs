@@ -9,9 +9,12 @@ namespace Assets._Code.Building
 	public class TilePlacer : MonoBehaviour
 	{
 		[SerializeField] private GameObject m_placeEffectPrefab; // small sprite or placeholder object
+		[SerializeField] private GameObject m_hoverEffectPrefab; // small sprite or placeholder object
 
 		[SerializeField] private Tilemap m_ground;
 		[SerializeField] private Tilemap m_environment;
+
+		[SerializeField] private TilePlacementHover m_tilePlacementHover;
 
 		private Tilemap m_tilemap;
 		private Tile m_tileToPlace;
@@ -30,6 +33,7 @@ namespace Assets._Code.Building
 		{
 			m_tilemap = null;
 			m_tileToPlace = null;
+			m_tilePlacementHover.Hide();
 		}
 
 		public void SetTileToPlace (Tile tile)
@@ -46,16 +50,28 @@ namespace Assets._Code.Building
 		{
 			if(m_tilemap == null || m_tileToPlace == null) return;
 
+			Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			mouseWorldPos.z = 0;
+			Vector3Int cellPos = m_tilemap.WorldToCell(mouseWorldPos);
+			cellPos.z = 0;
+
+			m_tilePlacementHover.SetPosition(cellPos, m_tileToPlace, m_tilemap);
+
+			if (!m_tilePlacementHover.CanBePlaced)
+				return;
+
 			if (Input.GetMouseButton(0))
 			{
-				Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-				mouseWorldPos.z = 0;
-				Vector3Int cellPos = m_tilemap.WorldToCell(mouseWorldPos);
-				cellPos.z = 0;
-
 				// Only place if tile is empty
 				if (m_tilemap.GetTile(cellPos) != m_tileToPlace && !m_animPositions.Contains(cellPos))
+				{
+					if (m_tilemap.HasTile(cellPos))
+					{
+						m_tilemap.SetTile(cellPos, null);
+					}
 					StartCoroutine(AnimateTilePlacement(cellPos));
+				}
+
 			}
 		}
 
@@ -68,7 +84,9 @@ namespace Assets._Code.Building
 			// Spawn temporary object for animation
 			GameObject animObj = Instantiate(m_placeEffectPrefab, worldPos, Quaternion.identity);
 			animObj.transform.localScale = Vector3.zero;
-			animObj.GetComponent<SpriteRenderer>().sprite = m_tileToPlace.sprite;
+			var sr = animObj.GetComponent<SpriteRenderer>();
+			sr.sprite = m_tileToPlace.sprite;
+			sr.sortingOrder = m_tilemap.GetComponent<TilemapRenderer>().sortingOrder;
 
 			// Animate pop-in
 			animObj.transform.DOScale(1f, 0.25f).SetEase(Ease.OutBack);

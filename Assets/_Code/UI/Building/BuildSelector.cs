@@ -1,17 +1,20 @@
 ﻿using Assets._Code.Building;
 using Assets._Code.Building.Data;
+using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 
 namespace Assets._Code.UI.Building
 {
-	public class BuildSelector : MonoBehaviour
+	public class BuildSelector : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 	{
+		[SerializeField] private CanvasGroup m_canvasGroup;
 		[SerializeField] private RectTransform m_content;
 		[SerializeField] private BuildItem m_itemPrefab;
 
@@ -19,7 +22,12 @@ namespace Assets._Code.UI.Building
 
 		private BuildItem m_activeItem = null;
 
-		private void Awake ()
+		private bool m_pointerEnter;
+		private bool m_pointerDown;
+
+		private bool m_isVisible;
+
+		private void Start ()
 		{
 			Hide(true);
 		}
@@ -78,6 +86,57 @@ namespace Assets._Code.UI.Building
 
 			TilePlacer.Instance.SetTileToPlace(tile);
 			m_activeItem = item;
+		}
+
+		private void CheckVisibility ()
+		{
+			if (!m_pointerEnter)
+			{
+				if (m_isVisible)
+				{
+					m_canvasGroup.DOFade(0.3f, 0.4f);
+				}
+				m_isVisible = false;
+				return;
+			}
+
+			if (!m_pointerDown)
+			{
+				if (!m_isVisible)
+				{
+					m_canvasGroup.DOFade(1.0f, 0.4f);
+				}
+				m_isVisible = true;
+				return;
+			}
+		}
+
+		void Update ()
+		{
+			if (m_isVisible) return;
+
+			if (Input.GetMouseButtonDown(0))
+			{
+				m_pointerDown = true;
+				CheckVisibility();
+			}
+			else if (Input.GetMouseButtonUp(0))
+			{
+				m_pointerDown = false;
+				CheckVisibility();
+			}
+		}
+
+		public void OnPointerEnter (PointerEventData eventData)
+		{
+			m_pointerEnter = true;
+			CheckVisibility();
+		}
+
+		public void OnPointerExit (PointerEventData eventData)
+		{
+			m_pointerEnter = false;
+			CheckVisibility();
 		}
 	}
 }

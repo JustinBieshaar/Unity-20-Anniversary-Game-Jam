@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1725690201890716005}
   - component: {fileID: 6180756800497245248}
   - component: {fileID: 5887062958465167878}
+  - component: {fileID: 2064619606505221976}
   m_Layer: 5
   m_Name: Selector
   m_TagString: Untagged
@@ -89,8 +90,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94ae05f5a2568f0408cc7f42abf28aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.UI.Building.BuildSelector
+  m_canvasGroup: {fileID: 2064619606505221976}
   m_content: {fileID: 6246977350488361036}
   m_itemPrefab: {fileID: 860088213044092820, guid: b13bd485990bd7846b7451f962b60c47, type: 3}
+--- !u!225 &2064619606505221976
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652923373758237082}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2365824032998197058
 GameObject:
   m_ObjectHideFlags: 0

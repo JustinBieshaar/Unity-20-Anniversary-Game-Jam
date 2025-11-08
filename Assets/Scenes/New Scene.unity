@@ -558,8 +558,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.TilePlacer
   m_placeEffectPrefab: {fileID: 3109675490073218363, guid: b28ab00822583264a9956b493edd42b1, type: 3}
-  m_ground: {fileID: 0}
-  m_environment: {fileID: 0}
+  m_hoverEffectPrefab: {fileID: 0}
+  m_ground: {fileID: 527633694}
+  m_environment: {fileID: 359919310}
+  m_tilePlacementHover: {fileID: 825352860}
 --- !u!4 &377932635
 Transform:
   m_ObjectHideFlags: 0
@@ -2273,6 +2275,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691737272}
   m_CullTransparentMesh: 1
+--- !u!1001 &710750879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.83272
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.29165
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384128208102034349, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3109675490073218363, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_Name
+      value: place_hover
+      objectReference: {fileID: 0}
+    - target: {fileID: 3139186857954252236, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
 --- !u!1 &776356017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,6 +2429,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &825352860 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 467990346713842184, guid: c45630f960c60dc4d989ea57140e008a, type: 3}
+  m_PrefabInstance: {fileID: 710750879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393825dbf6f14904a95bd39cda45de4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.TilePlacementHover
 --- !u!1 &831615461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3513,3 +3587,4 @@ SceneRoots:
   - {fileID: 1131816467}
   - {fileID: 1502735325}
   - {fileID: 1225846752}
+  - {fileID: 710750879}
