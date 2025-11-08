@@ -46,6 +46,7 @@ namespace Assets._Code.Building
 			m_tilemap = null;
 			m_tileToPlace = null;
 			m_tilePlacementHover.Hide();
+			m_tilePlacementHover.ClearPreview();
 		}
 
 		public void SetTileToPlace (TileConfig tile)
