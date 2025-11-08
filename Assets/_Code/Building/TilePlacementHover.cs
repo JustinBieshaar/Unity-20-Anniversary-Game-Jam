@@ -114,6 +114,15 @@ namespace Assets._Code.Building
 					sr.sortingOrder = tilemap.GetComponent<TilemapRenderer>().sortingOrder + 1;
 
 					bool canPlace = tileRule.CanPlace(m_groundTileMap, m_environmentTileMap, cell);
+
+					if (!m_groundTileMap.HasTile(cell + Vector3Int.right) &&
+						!m_groundTileMap.HasTile(cell + Vector3Int.left) &&
+						!m_groundTileMap.HasTile(cell + Vector3Int.up) &&
+						!m_groundTileMap.HasTile(cell + Vector3Int.down))
+					{
+						m_canBePlaced = false;
+					}
+
 					sr.color = (canPlace ? m_validColor : m_inValidColor) * new Color(1, 1, 1, 0.7f);
 
 					if (!canPlace)
