@@ -14,7 +14,10 @@ namespace Assets._Code.UI.Building
 
 		[SerializeField] private List<ButtonMap> m_legendButtons;
 
+		[SerializeField] private Button m_demolishButton;
+
 		[SerializeField] private Color m_activeColor;
+		private Color m_demolishColor;
 
 		[Serializable]
 		public class ButtonMap
@@ -45,16 +48,37 @@ namespace Assets._Code.UI.Building
 
 		private void Start ()
 		{
+			m_demolishColor = m_demolishButton.image.color;
+			
 			foreach (var buttonMap in m_legendButtons)
 			{
 				buttonMap.Init();
 				var selectedMap = buttonMap;
 				buttonMap.Button.onClick.AddListener(() => { OnLegendSelected(selectedMap); });
 			}
+
+			m_demolishButton.onClick.AddListener(ToggleDemolish);
+		}
+
+		private void ToggleDemolish ()
+		{
+			TilePlacer.Instance.ToggleDemolish();
+			m_buildSelector.Hide();
+
+			m_demolishButton.image.color = TilePlacer.Instance.IsInDemolishMode ? m_activeColor : m_demolishColor;
+
+			m_activeButtonMap?.Deactivate();
+			m_activeButtonMap = null;
 		}
 
 		private void OnLegendSelected (ButtonMap buttonMap)
 		{
+			if (TilePlacer.Instance.IsInDemolishMode)
+			{
+				TilePlacer.Instance.ToggleDemolish();
+				m_demolishButton.image.color = m_demolishColor;
+			}
+
 			m_buildSelector.Hide();
 			m_activeButtonMap?.Deactivate();
 

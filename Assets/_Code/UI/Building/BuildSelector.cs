@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
+using static Assets._Code.Building.Data.BuildDatabase;
 
 namespace Assets._Code.UI.Building
 {
@@ -22,23 +23,30 @@ namespace Assets._Code.UI.Building
 
 		private BuildItem m_activeItem = null;
 
-		private bool m_pointerEnter;
-		private bool m_pointerDown;
+		[SerializeField] private bool m_pointerEnter;
+		[SerializeField] private bool m_pointerDown;
 
 		private bool m_isVisible;
 
 		private void Start ()
 		{
 			Hide(true);
+			m_pointerEnter = false;
+			m_pointerDown = false;
+
+			CheckVisibility();
 		}
 
 		public void Show (float yPos)
 		{
 			gameObject.SetActive(true);
+			m_pointerDown = false;
 
-			var pos = transform.position;
+			/*var pos = transform.position;
 			pos.y = yPos;
-			transform.position = pos;
+			transform.position = pos;*/
+
+			CheckVisibility();
 		}
 
 		public void Hide (bool ignoreTilePlacer = false)
@@ -66,14 +74,14 @@ namespace Assets._Code.UI.Building
 			}
 		}
 
-		private void AddItem(Tile tile)
+		private void AddItem(TileRule tile)
 		{
 			var item = Instantiate(m_itemPrefab, m_content);
 			item.Init(tile, OnItemClicked);
 			m_items.Add(item);
 		}
 
-		private void OnItemClicked (BuildItem item, Tile tile)
+		private void OnItemClicked (BuildItem item, TileRule tile)
 		{
 			m_activeItem?.Deactivate();
 

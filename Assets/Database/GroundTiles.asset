@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: GroundTiles
   m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.Data.BuildDatabase
   m_tiles:
-  - {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
-  - {fileID: 11400000, guid: 4b67d0828b04a8b4c888aeeea906eb81, type: 2}
-  - {fileID: 11400000, guid: 882762ec80d4a1e43a91cc6ccb2f1fee, type: 2}
-  - {fileID: 11400000, guid: ed421e37f01383a448c249ea60709426, type: 2}
-  - {fileID: 11400000, guid: ac9fe8bcc0b082f42a4eb2ad40ac375b, type: 2}
+  - Tile: {fileID: 11400000, guid: 956d23b4454315943b14384d2630ab61, type: 2}
+    AcceptableTiles: []
+  - Tile: {fileID: 11400000, guid: 5d2848061293a6543b066e6dd6ae0506, type: 2}
+    AcceptableTiles: []
+  - Tile: {fileID: 11400000, guid: 4292bda2e0ac1954dba0391a1f3538c2, type: 2}
+    AcceptableTiles: []
+  - Tile: {fileID: 11400000, guid: 67adf868b0ce5604da3227d990635367, type: 2}
+    AcceptableTiles: []
+  - Tile: {fileID: 11400000, guid: de382093e1a8cb7489a6ceef8d4dae42, type: 2}
+    AcceptableTiles: []

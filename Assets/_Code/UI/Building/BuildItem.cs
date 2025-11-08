@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using static Assets._Code.Building.Data.BuildDatabase;
 
 namespace Assets._Code.UI.Building
 {
@@ -15,8 +16,8 @@ namespace Assets._Code.UI.Building
 		[SerializeField] private Image m_icon;
 		[SerializeField] private Color m_activeColor;
 
-		private Tile m_tile;
-		private Action<BuildItem, Tile> m_onClick;
+		private TileRule m_tile;
+		private Action<BuildItem, TileRule> m_onClick;
 		private Color m_normalColor;
 
 		private void Start ()
@@ -31,11 +32,11 @@ namespace Assets._Code.UI.Building
 			m_onClick?.Invoke(this, m_tile);
 		}
 
-		public void Init(Tile tile, Action<BuildItem, Tile> onClick)
+		public void Init(TileRule tile, Action<BuildItem, TileRule> onClick)
 		{
 			m_tile = tile;
 
-			m_icon.sprite = tile.sprite;
+			m_icon.sprite = tile.Tile.sprite;
 			m_onClick = onClick;
 		}
 
