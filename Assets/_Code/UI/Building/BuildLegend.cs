@@ -67,7 +67,7 @@ namespace Assets._Code.UI.Building
 			m_activeButtonMap = buttonMap;
 			buttonMap.Activate(m_activeColor);
 
-			m_buildSelector.Show(transform.position.y);
+			m_buildSelector.Show(buttonMap.Button.transform.position.y);
 			m_buildSelector.SetDatabase(buttonMap.BuildDatabase);
 
 			TilePlacer.Instance.SetTileMap(buttonMap.TileMap);
