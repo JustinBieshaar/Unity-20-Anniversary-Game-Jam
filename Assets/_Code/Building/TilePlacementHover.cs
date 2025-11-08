@@ -15,6 +15,8 @@ namespace Assets._Code.Building
 
 		[SerializeField] private SpriteRenderer m_renderer;
 
+		[SerializeField] private Tilemap m_groundTileMap;
+
 		private bool m_canBePlaced;
 
 		public bool CanBePlaced => m_canBePlaced;
@@ -30,10 +32,10 @@ namespace Assets._Code.Building
 
 			transform.position = tilemap.CellToWorld(position + new Vector3Int(0,0,1));
 
-			if(tilemap.HasTile(position + Vector3Int.right) ||
-				tilemap.HasTile(position + Vector3Int.left) ||
-				tilemap.HasTile(position + Vector3Int.up) ||
-				tilemap.HasTile(position + Vector3Int.down))
+			if(m_groundTileMap.HasTile(position + Vector3Int.right) ||
+				m_groundTileMap.HasTile(position + Vector3Int.left) ||
+				m_groundTileMap.HasTile(position + Vector3Int.up) ||
+				m_groundTileMap.HasTile(position + Vector3Int.down))
 			{
 				m_canBePlaced = true;
 			} else { m_canBePlaced = false; }
