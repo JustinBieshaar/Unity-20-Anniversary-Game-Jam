@@ -100,6 +100,9 @@ namespace Assets._Code.Controls
 			vertExtent -= m_extendBoundVertical;
 			horzExtent -= m_extendBoundHorizontal;
 
+			if (vertExtent < 0) vertExtent *= -1;
+			if (horzExtent < 0) horzExtent *= -1;
+
 			float minX = m_minBounds.x - horzExtent;
 			float maxX = m_maxBounds.x + horzExtent;
 			float minY = m_minBounds.y - vertExtent;
