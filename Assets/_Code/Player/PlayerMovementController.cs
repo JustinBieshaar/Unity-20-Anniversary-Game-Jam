@@ -6,15 +6,15 @@ namespace Assets._Code.Player
 {
 	public class PlayerMovementController : MonoBehaviour
 	{
-
 		[SerializeField] private Tilemap m_tileMap;
 		[SerializeField] private List<TileBase> m_acceptableTiles;
 
-		[SerializeField] private float m_speed = 5;
+		[SerializeField] private float m_speed = 5f;
+		[SerializeField] private float m_friction = 5f; // Higher = stops faster
 
 		private InputControls m_inputControls;
-
 		private Vector3 m_direction;
+		private Vector3 m_velocity;
 
 		private void Awake ()
 		{
@@ -29,30 +29,39 @@ namespace Assets._Code.Player
 
 		private void Update ()
 		{
-			if (m_direction.magnitude <= 0) return;
-
-			Vector3 isoDirection = GetIsometricDirection(m_direction);
 			Vector3 currentPos = transform.position;
+			Vector3 isoDirection = GetIsometricDirection(m_direction);
 
-			// Try moving X axis
-			Vector3 nextPosX = currentPos + new Vector3(isoDirection.x, 0, 0) * m_speed * Time.deltaTime;
+			// Accelerate when input exists
+			if (m_direction.magnitude > 0.1f)
+			{
+				m_velocity = isoDirection * m_speed;
+			}
+			else
+			{
+				// Apply friction (smooth deceleration)
+				m_velocity = Vector3.Lerp(m_velocity, Vector3.zero, m_friction * Time.deltaTime);
+			}
+
+			// Predict next position
+			Vector3 nextPos = currentPos + m_velocity * Time.deltaTime;
+
+			// Separate X/Y checks for tile validation
+			Vector3 nextPosX = new Vector3(nextPos.x, currentPos.y, currentPos.z);
 			if (IsValidTile(nextPosX))
-				currentPos.x = nextPosX.x;
+				currentPos.x = nextPos.x;
 
-			// Try moving Y axis
-			Vector3 nextPosY = currentPos + new Vector3(0, isoDirection.y, 0) * m_speed * Time.deltaTime;
+			Vector3 nextPosY = new Vector3(currentPos.x, nextPos.y, currentPos.z);
 			if (IsValidTile(nextPosY))
-				currentPos.y = nextPosY.y;
+				currentPos.y = nextPos.y;
 
 			transform.position = currentPos;
-
 		}
 
 		private bool IsValidTile (Vector3 position)
 		{
 			Vector3Int gridPosition = m_tileMap.WorldToCell(position);
 			var tile = m_tileMap.GetTile(gridPosition);
-
 			return m_tileMap.HasTile(gridPosition) && m_acceptableTiles.Contains(tile);
 		}
 
@@ -60,21 +69,13 @@ namespace Assets._Code.Player
 		{
 			Vector3 direction = new Vector3(
 				input.x - input.y,
-				(input.x + input.y) * .5f,
+				(input.x + input.y) * 0.5f,
 				0f
 			);
-
 			return direction.normalized;
 		}
 
-		private void OnEnable ()
-		{
-			m_inputControls.Enable();
-		}
-
-		private void OnDisable ()
-		{ 
-			m_inputControls.Disable(); 
-		}
+		private void OnEnable () => m_inputControls.Enable();
+		private void OnDisable () => m_inputControls.Disable();
 	}
 }
