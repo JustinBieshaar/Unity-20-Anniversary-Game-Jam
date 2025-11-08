@@ -1,4 +1,5 @@
-﻿using Assets._Code.Building.Data;
+﻿using Assets._Code.Blobs.Data;
+using Assets._Code.Building.Data;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -15,9 +16,12 @@ namespace Assets._Code.Blobs
 		}
 
 		[SerializeField] private TileConfigDatabase m_tileDatabase;
+		[SerializeField] private BlobDatabase m_blobDatabase;
 
 		[SerializeField] private Tilemap m_ground;
 		[SerializeField] private Tilemap m_environment;
+
+		private List<Blob> m_blobs = new List<Blob>();
 
 		private Dictionary<Vector3Int, bool> m_visited = new();
 
@@ -28,13 +32,75 @@ namespace Assets._Code.Blobs
 
 		private void Start ()
 		{
-			var result = FindRegions();
-			Debug.Log($"Regions found: {result.Count}");
+			Distribute();
+		}
 
-			foreach (var item in result)
+		private void Distribute ()
+		{
+			ClearBlobs();
+			var result = FindRegions();
+
+			foreach (var region in result)
 			{
-				Debug.Log($"Region: {item.Type}, count: {item.Tiles.Count}");
+				BlobRequirements blob = m_blobDatabase.GetBlobByTileType(region.Type);
+				if(blob == null)
+				{
+					Debug.Log($"No blob for {region.Type}");
+					continue;
+				}
+				int blobCount = CalculateBlobCount(blob, region.Tiles.Count, region.TreeCount);
+
+				Debug.Log($"Adding blobs: {blobCount} to region: {region.Type}");
+
+				for (int i = 0; i < blobCount; i++) 
+				{
+					var randomTile = region.Tiles[Random.Range(0, region.Tiles.Count)];
+					var blobInstance = Instantiate(blob.BlobPrefab);
+					blobInstance.transform.position = m_ground.CellToWorld(randomTile);
+
+					m_blobs.Add(blobInstance);
+				}
 			}
+		}
+
+		private void ClearBlobs ()
+		{
+			for (int i = m_blobs.Count - 1; i >= 0; i--)
+			{
+				Destroy(m_blobs[i].gameObject);
+			}
+			m_blobs.Clear();
+		}
+
+		private int CalculateBlobCount (BlobRequirements blob, int tileCount, int treeCount)
+		{
+			int minTiles = blob.TileRequirement;
+			int tilesPerBlob = blob.TileRequirementPerBlob;
+			int minTrees = blob.MinTreeRequirement;
+			int treeSaturation = blob.MaxTreeRequirement;
+
+			// Must meet basic requirements
+			if (tileCount < minTiles || treeCount < minTrees)
+				return 0;
+
+			// Compute base spawn potential based on area
+			float areaFactor = (tileCount - minTiles) / tilesPerBlob;
+
+			// Compute tree factor: helps early, suppresses late
+			float treeFactor = 1.0f;
+			if(treeSaturation > 0)
+			{
+				treeFactor = (treeCount - minTrees) / (treeSaturation + treeCount); 
+			}
+			
+
+			// Combine the two
+			float blobScore = areaFactor * treeFactor;
+
+			int blobCount = Mathf.FloorToInt(blobScore);
+
+			// Clamp so you don’t get absurd numbers
+			return Mathf.Clamp(blobCount, 0, 10);
 		}
 
 		private List<GroundRegion> FindRegions ()
@@ -58,6 +124,7 @@ namespace Assets._Code.Blobs
 					// Flood fill to find connected tiles of the same type
 					GroundRegion region = new GroundRegion { Type = type };
 					FloodFill(cell, type, region);
+					CountEnvironment(region);
 					result.Add(region);
 				}
 			}

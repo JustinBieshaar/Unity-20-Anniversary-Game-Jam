@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b759552734ad2a45995e41bd6b8cab5, type: 3}
+  m_Name: Blob_Grass
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Blobs.Data.BlobRequirements
+  m_regionType: 0
+  m_color: {r: 0.22967826, g: 0.9245283, b: 0.38383648, a: 1}
+  m_blobPrefab: {fileID: -7617702478001758792, guid: 586c28b4b1810454ea2d8e3397406613, type: 3}
+  m_minTiles: 10
+  m_tilesPerBlob: 12
+  m_minTrees: 2
+  m_maxTrees: 5

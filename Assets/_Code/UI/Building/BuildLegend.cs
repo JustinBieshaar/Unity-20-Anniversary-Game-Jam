@@ -68,6 +68,7 @@ namespace Assets._Code.UI.Building
 		{
 			TilePlacer.Instance.Stop();
 			TilePlacer.Instance.ToggleDemolish();
+			
 			m_buildSelector.Hide();
 
 			m_demolishButton.image.color = TilePlacer.Instance.IsInDemolishMode ? m_activeColor : m_demolishColor;
