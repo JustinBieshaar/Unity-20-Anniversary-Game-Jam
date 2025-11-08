@@ -34,6 +34,8 @@ namespace Assets._Code.Controls
 		private Vector3 m_minBounds;
 		private Vector3 m_maxBounds;
 
+		private int m_boundCount = 0;
+
 		private void Start ()
 		{
 			m_cam = GetComponent<Camera>();
@@ -48,7 +50,16 @@ namespace Assets._Code.Controls
 			HandleZoom();
 
 			if (m_boundTilemap != null)
+			{
+				TileBase[] allTiles = m_boundTilemap.GetTilesBlock(m_boundTilemap.cellBounds);
+				if (m_boundCount != allTiles.Length)
+				{
+					m_boundCount = allTiles.Length;
+					Debug.Log($"bound count has been updated to: {m_boundCount}");
+					CalculateBounds();
+				}
 				ClampCamera();
+			}
 		}
 
 		private void HandleKeyboardMovement ()

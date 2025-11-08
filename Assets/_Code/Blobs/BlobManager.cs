@@ -12,7 +12,18 @@ namespace Assets._Code.Blobs
 		{
 			public TileType Type;
 			public List<Vector3Int> Tiles = new();
+			public HashSet<Vector3Int> TileSet = new(); // for fast lookup
+			public Dictionary<Vector3Int, Vector3> WorldPositions = new(); // precomputed cell centers
+			public Dictionary<Vector3Int, List<Vector3Int>> Neighbors = new(); // adjacency list
 			public int TreeCount;
+			public int ID;
+
+			public Vector3 GetWorld (Vector3Int cell)
+			{
+				if (WorldPositions.TryGetValue(cell, out var w))
+					return w;
+				return Vector3.zero;
+			}
 		}
 
 		[SerializeField] private TileConfigDatabase m_tileDatabase;
@@ -42,6 +53,7 @@ namespace Assets._Code.Blobs
 		public void Distribute ()
 		{
 			ClearBlobs();
+			m_visited?.Clear();
 			var result = FindRegions();
 
 			foreach (var region in result)
@@ -60,7 +72,8 @@ namespace Assets._Code.Blobs
 				{
 					var randomTile = region.Tiles[Random.Range(0, region.Tiles.Count)];
 					var blobInstance = Instantiate(blob.BlobPrefab);
-					blobInstance.transform.position = m_ground.CellToWorld(randomTile);
+					blobInstance.transform.position = region.WorldPositions[randomTile] + new Vector3(0, 0.25f, 0);
+					blobInstance.Init(blob, region);
 
 					m_blobs.Add(blobInstance);
 				}
@@ -127,6 +140,7 @@ namespace Assets._Code.Blobs
 					// Flood fill to find connected tiles of the same type
 					GroundRegion region = new GroundRegion { Type = type };
 					FloodFill(cell, type, region);
+					FinalizeRegion(region);
 					CountEnvironment(region);
 					result.Add(region);
 				}
@@ -160,6 +174,28 @@ namespace Assets._Code.Blobs
 					m_visited[neighbor] = true;
 					queue.Enqueue(neighbor);
 				}
+			}
+		}
+
+		private void FinalizeRegion (GroundRegion region)
+		{
+			foreach (var cell in region.Tiles)
+			{
+				region.TileSet.Add(cell);
+				region.WorldPositions[cell] = m_ground.GetCellCenterWorld(cell);
+			}
+
+			// Build neighbor graph
+			foreach (var cell in region.Tiles)
+			{
+				List<Vector3Int> neighbors = new();
+				foreach (var dir in NeighborDirs)
+				{
+					var n = cell + dir;
+					if (region.TileSet.Contains(n))
+						neighbors.Add(n);
+				}
+				region.Neighbors[cell] = neighbors;
 			}
 		}
 

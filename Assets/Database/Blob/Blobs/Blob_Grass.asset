@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blob_Grass
   m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Blobs.Data.BlobRequirements
   m_regionType: 0
-  m_color: {r: 0.22967826, g: 0.9245283, b: 0.38383648, a: 1}
+  m_color: {r: 0.29411766, g: 0.78431374, b: 0.32941177, a: 1}
   m_blobPrefab: {fileID: -7617702478001758792, guid: 586c28b4b1810454ea2d8e3397406613, type: 3}
   m_minTiles: 10
   m_tilesPerBlob: 12
