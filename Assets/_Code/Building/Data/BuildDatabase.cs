@@ -1,37 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 namespace Assets._Code.Building.Data
 {
-	[CreateAssetMenu(fileName = "BuildDatabase", menuName = "Building/BuildDatabase")]
+	[CreateAssetMenu(fileName = "BuildDatabase", menuName = "Databases/BuildDatabase")]
 	public class BuildDatabase : ScriptableObject
 	{
-		[Serializable]
-		public class TileRule
+		[SerializeField] private List<TileConfig> m_tiles;
+
+		public List<TileConfig> Tiles => m_tiles;
+
+		public TileConfig FindConfig (Tile tile)
 		{
-			public Tile Tile;
-			public List<Tile> AcceptableTiles;
-			public bool BlockByEnvironment;
-
-			public bool CanPlace(Tilemap ground, Tilemap environment, Vector3Int pos)
-			{
-				if (BlockByEnvironment)
-				{
-					if (environment.HasTile(pos))
-					{
-						return false;
-					}
-				}
-				if (AcceptableTiles == null || AcceptableTiles.Count == 0)
-					return true;
-
-				return AcceptableTiles.Contains(ground.GetTile<Tile>(pos));
-			}
+			return m_tiles.First(t => t.Tile  == tile);
 		}
-		[SerializeField] private List<TileRule> m_tiles;
-
-		public List<TileRule> Tiles => m_tiles;
 	}
 }

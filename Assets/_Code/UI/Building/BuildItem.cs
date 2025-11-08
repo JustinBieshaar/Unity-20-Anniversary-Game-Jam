@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets._Code.Building.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,8 +17,8 @@ namespace Assets._Code.UI.Building
 		[SerializeField] private Image m_icon;
 		[SerializeField] private Color m_activeColor;
 
-		private TileRule m_tile;
-		private Action<BuildItem, TileRule> m_onClick;
+		private TileConfig m_tile;
+		private Action<BuildItem, TileConfig> m_onClick;
 		private Color m_normalColor;
 
 		private void Start ()
@@ -32,7 +33,7 @@ namespace Assets._Code.UI.Building
 			m_onClick?.Invoke(this, m_tile);
 		}
 
-		public void Init(TileRule tile, Action<BuildItem, TileRule> onClick)
+		public void Init(TileConfig tile, Action<BuildItem, TileConfig> onClick)
 		{
 			m_tile = tile;
 

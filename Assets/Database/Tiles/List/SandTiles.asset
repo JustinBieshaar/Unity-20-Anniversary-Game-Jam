@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aff049fc57a374c927efea099563ce, type: 3}
+  m_Name: SandTiles
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.Data.TileList
+  m_tiles:
+  - {fileID: 11400000, guid: ed421e37f01383a448c249ea60709426, type: 2}
+  - {fileID: 11400000, guid: 882762ec80d4a1e43a91cc6ccb2f1fee, type: 2}
+  - {fileID: 11400000, guid: 8bd979dba350b724fb8303e9924fc9ca, type: 2}
+  - {fileID: 11400000, guid: 941b673a591693f448d3327c627ec423, type: 2}
+  - {fileID: 11400000, guid: 5d2848061293a6543b066e6dd6ae0506, type: 2}
+  - {fileID: 11400000, guid: de382093e1a8cb7489a6ceef8d4dae42, type: 2}
+  - {fileID: 11400000, guid: e87da21b14ca02a48b1ccb309ffc066c, type: 2}
+  - {fileID: 11400000, guid: e1ea3f6aee73e1b4e8d06c00389ff56f, type: 2}
+  - {fileID: 11400000, guid: fc73c401dc6128742b6dd6cdc68b4223, type: 2}
+  - {fileID: 11400000, guid: a77274df7e1c0194fab7f53ea1dbcf19, type: 2}

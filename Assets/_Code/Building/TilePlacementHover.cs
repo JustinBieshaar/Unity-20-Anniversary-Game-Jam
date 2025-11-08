@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets._Code.Building.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,7 @@ namespace Assets._Code.Building
 			Hide();
 		}
 
-		public void SetPosition (Vector3Int position, TileRule rule, Tilemap tilemap)
+		public void SetPosition (Vector3Int position, TileConfig rule, Tilemap tilemap)
 		{
 			gameObject.SetActive(true);
 
@@ -76,9 +77,9 @@ namespace Assets._Code.Building
 			m_demolishMode = !m_demolishMode;
 		}
 
-		public void SetRectPreview (Vector3Int min, Vector3Int max, TileRule tileRule, Tilemap tilemap)
+		public void SetRectPreview (Vector3Int min, Vector3Int max, TileConfig TileConfig, Tilemap tilemap)
 		{
-			if (tileRule == null || tileRule.Tile == null)
+			if (TileConfig == null || TileConfig.Tile == null)
 				return;
 
 			gameObject.SetActive(true);
@@ -110,11 +111,11 @@ namespace Assets._Code.Building
 					SpriteRenderer sr = m_previewTiles[index++];
 					sr.gameObject.SetActive(true);
 
-					sr.sprite = tileRule.Tile.sprite;
+					sr.sprite = TileConfig.Tile.sprite;
 					sr.transform.position = tilemap.GetCellCenterWorld(cell);
 					sr.sortingOrder = tilemap.GetComponent<TilemapRenderer>().sortingOrder + 1;
 
-					bool canPlace = tileRule.CanPlace(m_groundTileMap, m_environmentTileMap, cell);
+					bool canPlace = TileConfig.CanPlace(m_groundTileMap, m_environmentTileMap, cell);
 
 					if (m_groundTileMap.HasTile(cell + Vector3Int.right) ||
 						m_groundTileMap.HasTile(cell + Vector3Int.left) ||
@@ -151,6 +152,7 @@ namespace Assets._Code.Building
 				Destroy(item.gameObject);
 			}
 			m_previewTiles.Clear();
+			m_renderer.gameObject.SetActive(true);
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Assets._Code.Building.Data;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -7,7 +8,7 @@ namespace Assets._Code.Player
 	public class PlayerMovementController : MonoBehaviour
 	{
 		[SerializeField] private Tilemap m_tileMap;
-		[SerializeField] private List<TileBase> m_acceptableTiles;
+		[SerializeField] private TileList m_acceptableTiles;
 
 		[SerializeField] private float m_speed = 5f;
 		[SerializeField] private float m_friction = 5f; // Higher = stops faster
@@ -61,7 +62,7 @@ namespace Assets._Code.Player
 		private bool IsValidTile (Vector3 position)
 		{
 			Vector3Int gridPosition = m_tileMap.WorldToCell(position);
-			var tile = m_tileMap.GetTile(gridPosition);
+			var tile = m_tileMap.GetTile<Tile>(gridPosition);
 			return m_tileMap.HasTile(gridPosition) && m_acceptableTiles.Contains(tile);
 		}
 

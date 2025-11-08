@@ -1,3 +1,4 @@
+using Assets._Code.Building.Data;
 using DG.Tweening;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace Assets._Code.Building
 		[SerializeField] private TilePlacementHover m_tilePlacementHover;
 
 		private Tilemap m_tilemap;
-		private TileRule m_tileToPlace;
+		private TileConfig m_tileToPlace;
 
 		public static TilePlacer Instance => s_instance;
 		private static TilePlacer s_instance; // I hate this..
@@ -47,7 +48,7 @@ namespace Assets._Code.Building
 			m_tilePlacementHover.Hide();
 		}
 
-		public void SetTileToPlace (TileRule tile)
+		public void SetTileToPlace (TileConfig tile)
 		{
 			m_tileToPlace = tile;
 		}
@@ -157,7 +158,7 @@ namespace Assets._Code.Building
 				tile = m_environment.GetTile<Tile>(cellPos);
 			}
 
-			m_tilePlacementHover.SetPosition(cellPos, new TileRule() { Tile = tile }, m_ground);
+			m_tilePlacementHover.SetPosition(cellPos, new TileConfig(tile), m_ground);
 
 			if (Input.GetMouseButton(0))
 			{

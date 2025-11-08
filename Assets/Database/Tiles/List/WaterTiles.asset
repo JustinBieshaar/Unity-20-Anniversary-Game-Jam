@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aff049fc57a374c927efea099563ce, type: 3}
+  m_Name: WaterTiles
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.Data.TileList
+  m_tiles:
+  - {fileID: 11400000, guid: 4292bda2e0ac1954dba0391a1f3538c2, type: 2}
+  - {fileID: 11400000, guid: 561c55b27c0afe540847cde965835142, type: 2}
+  - {fileID: 11400000, guid: 63b8173a3c0a4114cb59c1cebc7fec3c, type: 2}
+  - {fileID: 11400000, guid: ddda0761a41ee3f449e1d3391a6d1fdb, type: 2}
+  - {fileID: 11400000, guid: bd81ba6e2109ecf46b7bc5ec9bd0e456, type: 2}
+  - {fileID: 11400000, guid: 67adf868b0ce5604da3227d990635367, type: 2}
+  - {fileID: 11400000, guid: 4b67d0828b04a8b4c888aeeea906eb81, type: 2}
+  - {fileID: 11400000, guid: 15936374dfec9d74dba98433cdd7c054, type: 2}
+  - {fileID: 11400000, guid: 5d3097ab65dbae54b85ec21baa6ada25, type: 2}
+  - {fileID: 11400000, guid: ac9fe8bcc0b082f42a4eb2ad40ac375b, type: 2}

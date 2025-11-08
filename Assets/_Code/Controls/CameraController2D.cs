@@ -43,7 +43,7 @@ namespace Assets._Code.Controls
 
 		private void Update ()
 		{
-			HandleKeyboardMovement();
+			//HandleKeyboardMovement();
 			HandleMouseDrag();
 			HandleZoom();
 

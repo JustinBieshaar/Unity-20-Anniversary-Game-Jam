@@ -74,14 +74,14 @@ namespace Assets._Code.UI.Building
 			}
 		}
 
-		private void AddItem(TileRule tile)
+		private void AddItem(TileConfig tile)
 		{
 			var item = Instantiate(m_itemPrefab, m_content);
 			item.Init(tile, OnItemClicked);
 			m_items.Add(item);
 		}
 
-		private void OnItemClicked (BuildItem item, TileRule tile)
+		private void OnItemClicked (BuildItem item, TileConfig tile)
 		{
 			m_activeItem?.Deactivate();
 

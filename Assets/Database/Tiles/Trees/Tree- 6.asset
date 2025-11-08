@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d3bc682e42a284093ec9d6a70119ec, type: 3}
+  m_Name: Tree- 6
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.Building.Data.TileConfig
+  m_type: 40
+  m_tile: {fileID: 11400000, guid: 56924381bce7efc4ea96fffb563205b8, type: 2}
+  m_acceptableTiles: {fileID: 11400000, guid: ff757c6d2f7e8394da379b7b916eb8b2, type: 2}
+  m_blockByEnvironment: 0
