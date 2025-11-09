@@ -15,6 +15,9 @@ namespace Assets._Code.Blobs.Data
 		[SerializeField] private Color m_color;
 		[SerializeField] private Blob m_blobPrefab;
 
+		[Header("Audio")]
+		[SerializeField] private AudioClip m_walkAudio;
+
 		[Header("Requirements")]
 		[SerializeField] private int m_minTiles;
 		[SerializeField] private int m_tilesPerBlob;
@@ -24,6 +27,8 @@ namespace Assets._Code.Blobs.Data
 		public TileType RegionType => m_regionType;
 		public Color Color => m_color;
 		public Blob BlobPrefab => m_blobPrefab;
+
+		public AudioClip WalkAudio => m_walkAudio; 
 
 		public int TileRequirement => m_minTiles;
 		public int TileRequirementPerBlob => m_tilesPerBlob;

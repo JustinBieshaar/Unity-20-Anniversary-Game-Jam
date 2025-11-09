@@ -1,4 +1,5 @@
 ﻿using Assets._Code.Blobs.Data;
+using Assets._Code.Sound;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,10 +21,12 @@ namespace Assets._Code.Blobs
 		[SerializeField] private float m_randomOffset = 0.125f;
 
 		private GroundRegion m_region;
+		private AudioClip m_walkAudio;
 
 		public void Init (BlobRequirements blob, GroundRegion region)
 		{
 			m_renderer.color = blob.Color;
+			m_walkAudio = blob.WalkAudio;
 			m_region = region;
 			StartCoroutine(RoamRoutine());
 		}
@@ -58,6 +61,7 @@ namespace Assets._Code.Blobs
 				// Squash before moving
 				seq.Append(transform.DOScale(new Vector3(baseScale.x * 0.8f, baseScale.y / 0.8f, baseScale.z), 0.1f).SetEase(Ease.OutQuad));
 
+				SoundManager.Instance.PlaySFX(m_walkAudio, 0.1f);
 				// Move while stretching slightly
 				seq.Append(transform.DOMove(target, Vector3.Distance(transform.position, target) / m_moveSpeed)
 					.SetEase(Ease.Linear)

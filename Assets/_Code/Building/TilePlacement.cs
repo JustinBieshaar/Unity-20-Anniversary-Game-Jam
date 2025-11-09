@@ -1,4 +1,5 @@
 using Assets._Code.Building.Data;
+using Assets._Code.Sound;
 using DG.Tweening;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,10 @@ namespace Assets._Code.Building
 		[SerializeField] private Tilemap m_environment;
 
 		[SerializeField] private TilePlacementHover m_tilePlacementHover;
+
+		[Header("Audio")]
+		[SerializeField] private AudioClip m_placeAudioClip;
+		[SerializeField] private AudioClip m_demolishAudioClip;
 
 		private Tilemap m_tilemap;
 		private TileConfig m_tileToPlace;
@@ -174,7 +179,12 @@ namespace Assets._Code.Building
 						m_currentDemolishTileMap = m_ground;
 					}
 				}
-				
+
+				if (m_currentDemolishTileMap != null && m_currentDemolishTileMap.HasTile(cellPos))
+				{
+					SoundManager.Instance.PlaySFX(m_demolishAudioClip, 0.1f);
+				}
+
 				m_currentDemolishTileMap?.SetTile(cellPos, null);
 			} else if (Input.GetMouseButtonUp(0))
 			{
@@ -196,6 +206,7 @@ namespace Assets._Code.Building
 
 			// Animate pop-in
 			animObj.transform.DOScale(1f, 0.25f).SetEase(Ease.OutBack);
+			SoundManager.Instance.PlaySFX(m_placeAudioClip, 0.1f);
 
 			// Wait for animation
 			yield return new WaitForSeconds(0.25f);
@@ -218,7 +229,7 @@ namespace Assets._Code.Building
 					if (m_tilemap.GetTile(pos) != m_tileToPlace.Tile && !m_animPositions.Contains(pos))
 					{
 						StartCoroutine(AnimateTilePlacement(pos));
-						yield return new WaitForSeconds(0.01f); // small stagger for performance/look
+						yield return new WaitForSeconds(0.05f); // small stagger for performance/look
 					}
 				}
 			}

@@ -13,6 +13,8 @@ namespace Assets._Code.Player
 		[SerializeField] private float m_speed = 5f;
 		[SerializeField] private float m_friction = 5f; // Higher = stops faster
 
+		[SerializeField] private bool m_isometricWalk = false;
+
 		private InputControls m_inputControls;
 		private Vector3 m_direction;
 		private Vector3 m_velocity;
@@ -68,6 +70,11 @@ namespace Assets._Code.Player
 
 		private Vector3 GetIsometricDirection (Vector2 input)
 		{
+			if (!m_isometricWalk)
+			{
+				return input;
+			}
+
 			Vector3 direction = new Vector3(
 				input.x - input.y,
 				(input.x + input.y) * 0.5f,

@@ -23,6 +23,18 @@ namespace Assets._Code.Building.Data
 			return t.TileType;
 		}
 
+		public string GetTileID (Tile tile)
+		{
+			var ti = m_allTileConfigs.FirstOrDefault(t => t.Tile == tile);
+			return ti != null ? ti.name : "";
+		}
+
+		public TileBase GetTileByID (string tileID)
+		{
+			var ti = m_allTileConfigs.FirstOrDefault(t => t.name == tileID);
+			return ti != null ? ti.Tile : null;
+		}
+
 		public IReadOnlyList<TileConfig> AllTileConfigs => m_allTileConfigs;
 
 #if UNITY_EDITOR
