@@ -15,12 +15,16 @@ namespace Assets._Code.UI.Game
 		[SerializeField] private Image m_image;
 		private void Start ()
 		{
-			m_image.DOFade(0, 2f).OnComplete(() =>
+			var imgColor = m_image.color;
+			imgColor.a = 1;
+			m_image.color = imgColor;
+
+			m_image.DOFade(0, 2f).SetDelay(0.5f).OnComplete(() =>
 			{
 				gameObject.SetActive(false);
 			});
 
-			SoundManager.Instance.FadeBGM(0.5f);
+			SoundManager.Instance.FadeBGM(1.5f);
 		}
 	}
 }

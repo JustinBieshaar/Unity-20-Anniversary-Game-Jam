@@ -31,7 +31,7 @@ namespace Assets._Code.UI.Menu
 				} else
 				{
 					// start game
-					OverlayStartGame.Instance.StartGame();
+					OverlayStartGame.Instance.StartGameSequence();
 				}
 			});
 

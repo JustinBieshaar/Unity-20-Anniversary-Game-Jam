@@ -41,7 +41,7 @@ namespace Assets._Code.UI.Menu
 			int saveIndex = PlayerPrefs.GetInt(PrefKeys.KEY_CURRENT_SAVE, 0);
 			PlayerPrefs.SetString(PrefKeys.KEY_SAVE_NAME + saveIndex, m_inputField.text);
 
-			OverlayStartGame.Instance.StartGame();
+			OverlayStartGame.Instance.StartGameSequence();
 		}
 
 		private void ValidateName (string arg0)
