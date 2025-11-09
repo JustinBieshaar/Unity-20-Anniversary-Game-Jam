@@ -1,4 +1,5 @@
-﻿using Assets._Code.Blobs;
+﻿using Assets._Code._Global;
+using Assets._Code.Blobs;
 using Assets._Code.Building.Data;
 using System.Collections.Generic;
 using System.IO;
@@ -34,9 +35,7 @@ namespace Assets._Code.Saving
 		[SerializeField] private float m_autoSaveInterval = 300f; // 5 min
 		private float m_autoSaveTimer;
 
-		[Header("Save Slot")]
-		[Range(1, 3)]
-		[SerializeField] private int m_currentSlot = 1;
+		private int m_currentSlot;
 
 		private void Awake ()
 		{
@@ -47,6 +46,13 @@ namespace Assets._Code.Saving
 			}
 			Instance = this;
 			DontDestroyOnLoad(gameObject);
+
+			m_currentSlot = PlayerPrefs.GetInt(PrefKeys.KEY_CURRENT_SAVE);
+		}
+
+		private void Start ()
+		{
+			LoadTilemaps();
 		}
 
 		private void Update ()
@@ -83,7 +89,7 @@ namespace Assets._Code.Saving
             PlayerPrefs.Save();
             Debug.Log($"Tilemaps saved to slot {slot} (WebGL)");
 #else
-			File.WriteAllText(GetSaveFilePath(m_currentSlot), json);
+			File.WriteAllText(SaveHelper.GetSaveFilePath(m_currentSlot), json);
 			Debug.Log($"Tilemaps saved to slot {m_currentSlot}");
 #endif
 		}
@@ -99,7 +105,7 @@ namespace Assets._Code.Saving
             }
             string json = PlayerPrefs.GetString(key);
 #else
-			string path = GetSaveFilePath(m_currentSlot);
+			string path = SaveHelper.GetSaveFilePath(m_currentSlot);
 			if (!File.Exists(path))
 			{
 				Debug.LogWarning($"Save slot {m_currentSlot} not found!");
@@ -149,11 +155,6 @@ namespace Assets._Code.Saving
 				if (tile != null)
 					tilemap.SetTile(data.cell, tile);
 			}
-		}
-
-		private string GetSaveFilePath (int slot)
-		{
-			return Path.Combine(Application.persistentDataPath, $"TilemapWorld{slot}.json");
 		}
 
 		#endregion

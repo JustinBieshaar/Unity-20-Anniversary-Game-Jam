@@ -1,5 +1,6 @@
 ﻿
 
+using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,7 +28,6 @@ namespace Assets._Code.Sound
 				return;
 			}
 			Instance = this;
-			DontDestroyOnLoad(gameObject);
 		}
 
 		#region SFX
@@ -93,6 +93,16 @@ namespace Assets._Code.Sound
 			m_bgmVolume = Mathf.Clamp01(volume);
 			if (m_bgmSource != null)
 				m_bgmSource.volume = m_bgmVolume;
+		}
+
+		public void FadeBGM (float to = 0.0f, float duration = 1.0f)
+		{
+			m_bgmSource.DOFade(to, duration);
+		}
+
+		public void Reset ()
+		{
+			Instance = null;
 		}
 
 		#endregion
