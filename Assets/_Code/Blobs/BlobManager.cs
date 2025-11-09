@@ -36,8 +36,13 @@ namespace Assets._Code.Blobs
 		public static BlobManager Instance => s_instance;
 
 		private List<Blob> m_blobs = new List<Blob>();
+		private Dictionary<string, List<Blob>> m_regionBlobs = new();
 
 		private Dictionary<Vector3Int, bool> m_visited = new();
+
+		private Dictionary<string, HashSet<Vector3Int>> m_regionTiles = new();
+		private int m_nextRegionId = 1;
+
 
 		private readonly Vector3Int[] NeighborDirs =
 		{
@@ -56,32 +61,103 @@ namespace Assets._Code.Blobs
 
 		public void Distribute ()
 		{
-			ClearBlobs();
 			m_visited?.Clear();
-			var result = FindRegions();
+			var newRegions = FindRegions();
+			var newKeys = new HashSet<string>();
+			var nextCache = new Dictionary<string, List<Blob>>();
+			var nextTiles = new Dictionary<string, HashSet<Vector3Int>>();
 
-			foreach (var region in result)
+			foreach (var region in newRegions)
 			{
-				BlobRequirements blob = m_blobDatabase.GetBlobByTileType(region.Type);
-				if(blob == null)
+				// --- Try to find an existing cached region with same type and overlapping tiles ---
+				string matchedKey = null;
+				foreach (var kv in m_regionTiles)
 				{
-					Debug.Log($"No blob for {region.Type}");
-					continue;
+					string oldKey = kv.Key;
+					var oldTiles = kv.Value;
+					if (!m_regionBlobs.ContainsKey(oldKey)) continue;
+
+					// type match?
+					if (m_blobDatabase.GetBlobByTileType(region.Type) == null) continue;
+
+					// overlap?
+					bool overlaps = false;
+					foreach (var t in region.Tiles)
+					{
+						if (oldTiles.Contains(t)) { overlaps = true; break; }
+					}
+
+					if (overlaps)
+					{
+						matchedKey = oldKey;
+						break;
+					}
 				}
-				int blobCount = CalculateBlobCount(blob, region.Tiles.Count, region.TreeCount);
 
-				Debug.Log($"Adding blobs: {blobCount} to region: {region.Type}");
+				string key;
+				if (matchedKey != null)
+				{
+					// reuse cached id
+					key = matchedKey;
+				}
+				else
+				{
+					// brand new region
+					key = $"R_{m_nextRegionId++}_{region.Type}";
+				}
 
-				for (int i = 0; i < blobCount; i++) 
+				newKeys.Add(key);
+				nextTiles[key] = new HashSet<Vector3Int>(region.Tiles);
+
+				BlobRequirements blobReq = m_blobDatabase.GetBlobByTileType(region.Type);
+				if (blobReq == null) continue;
+
+				int desiredCount = CalculateBlobCount(blobReq, region.Tiles.Count, region.TreeCount);
+
+				if (!m_regionBlobs.TryGetValue(key, out var blobList))
+					blobList = new List<Blob>();
+
+				// remove excess
+				while (blobList.Count > desiredCount)
+				{
+					var last = blobList[^1];
+					blobList.RemoveAt(blobList.Count - 1);
+					m_blobs.Remove(last);
+					Destroy(last.gameObject);
+				}
+
+				// add missing
+				while (blobList.Count < desiredCount)
 				{
 					var randomTile = region.Tiles[Random.Range(0, region.Tiles.Count)];
-					var blobInstance = Instantiate(blob.BlobPrefab);
+					var blobInstance = Instantiate(blobReq.BlobPrefab);
 					blobInstance.transform.position = region.WorldPositions[randomTile] + new Vector3(0, 0.25f, 0);
-					blobInstance.Init(blob, region);
+					blobInstance.Init(blobReq, region);
 
+					blobList.Add(blobInstance);
 					m_blobs.Add(blobInstance);
 				}
+
+				// optional: refresh region on existing blobs
+				foreach (var b in blobList)
+					b.SetRegion(region);
+
+				nextCache[key] = blobList;
 			}
+
+			// remove any old cached regions not in new set
+			foreach (var kv in m_regionBlobs)
+			{
+				if (!newKeys.Contains(kv.Key))
+				{
+					foreach (var b in kv.Value)
+						Destroy(b.gameObject);
+				}
+			}
+
+			// replace caches
+			m_regionBlobs = nextCache;
+			m_regionTiles = nextTiles;
 		}
 
 		private void ClearBlobs ()
@@ -216,6 +292,40 @@ namespace Assets._Code.Blobs
 					trees++;
 			}
 			region.TreeCount = trees;
+		}
+
+		private string ComputeRegionKey (GroundRegion region)
+		{
+			// 1. Check cached regions for overlap
+			foreach (var kv in m_regionTiles)
+			{
+				string cachedKey = kv.Key;
+				var cachedTiles = kv.Value;
+
+				// only consider regions of same type
+				if (!m_regionBlobs.ContainsKey(cachedKey)) continue;
+				if (m_blobDatabase.GetBlobByTileType(region.Type) == null) continue;
+
+				// check if any tile overlaps
+				bool overlaps = false;
+				foreach (var t in region.Tiles)
+				{
+					if (cachedTiles.Contains(t)) { overlaps = true; break; }
+				}
+
+				if (overlaps)
+					return cachedKey; // reuse existing key
+			}
+
+			// 2. No overlapping cached region: generate a new hash-based key
+			var sorted = new List<Vector3Int>(region.Tiles);
+			sorted.Sort((a, b) => a.x == b.x ? a.y.CompareTo(b.y) : a.x.CompareTo(b.x));
+
+			var hash = 17;
+			foreach (var cell in sorted)
+				hash = hash * 31 + cell.GetHashCode();
+
+			return $"{region.Type}_{hash}";
 		}
 
 	}

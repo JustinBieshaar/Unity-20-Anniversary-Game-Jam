@@ -31,6 +31,12 @@ namespace Assets._Code.Blobs
 			StartCoroutine(RoamRoutine());
 		}
 
+		public void SetRegion (GroundRegion region)
+		{
+			m_region = region;
+
+		}
+
 		private IEnumerator RoamRoutine ()
 		{
 			var tiles = m_region.Tiles;
