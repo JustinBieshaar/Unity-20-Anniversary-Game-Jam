@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets._Code.UI.Building;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,6 +46,11 @@ namespace Assets._Code.Controls
 
 		private void Update ()
 		{
+			if (BuildSelector.Instance.IsVisible)
+			{
+				return;
+			}
+
 			//HandleKeyboardMovement();
 			HandleMouseDrag();
 			HandleZoom();

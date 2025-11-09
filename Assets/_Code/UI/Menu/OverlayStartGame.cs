@@ -92,8 +92,8 @@ namespace Assets._Code.UI.Menu
 
 		private void StartSubTextsSequence ()
 		{
-			float delay = 0.2f;
-			float addedDuration = 0.2f;
+			float delay = 0.8f;
+			float addedDuration = 1.5f;
 			Sequence textsSequence = DOTween.Sequence();
 
 			for (int i = 0; i < m_subTexts.Count; i++)

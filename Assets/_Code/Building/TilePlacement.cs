@@ -1,6 +1,7 @@
 using Assets._Code.Blobs;
 using Assets._Code.Building.Data;
 using Assets._Code.Sound;
+using Assets._Code.UI.Building;
 using DG.Tweening;
 using System;
 using System.Collections.Generic;
@@ -67,6 +68,11 @@ namespace Assets._Code.Building
 
 		void Update ()
 		{
+			if (BuildSelector.Instance.IsVisible)
+			{
+				return;
+			}
+
 			if (m_demolishMode)
 			{
 				CheckDemolish();

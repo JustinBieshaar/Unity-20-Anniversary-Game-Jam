@@ -27,9 +27,14 @@ namespace Assets._Code.UI.Building
 		[SerializeField] private bool m_pointerDown;
 
 		private bool m_isVisible;
+		public bool IsVisible => m_isVisible;
+
+		public static BuildSelector Instance { get; private set; }
 
 		private void Start ()
 		{
+			Instance = this;
+
 			Hide(true);
 			m_pointerEnter = false;
 			m_pointerDown = false;
