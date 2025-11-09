@@ -1,5 +1,6 @@
 ﻿using Assets._Code.Saving;
 using Assets._Code.Sound;
+using Assets._Code.UI.Menu;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,13 +14,20 @@ namespace Assets._Code.UI
 {
 	public class BackButton : MonoBehaviour
 	{
+		[SerializeField] private OverlayYesNo m_yesNoOverlay;
+
 		private void Start ()
 		{
 			GetComponent<Button>().onClick.AddListener(() =>
 			{
-				SaveManager.Instance.SaveTilemaps();
-				SoundManager.Instance.Reset();
-				SceneManager.LoadScene(0);
+				m_yesNoOverlay.Show((bool yes) =>
+				{
+					if (!yes) return;
+
+					SaveManager.Instance.SaveTilemaps();
+					SoundManager.Instance.Reset();
+					SceneManager.LoadScene(0);
+				});
 			});
 		}
 	}

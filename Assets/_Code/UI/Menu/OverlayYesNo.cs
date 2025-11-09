@@ -9,8 +9,9 @@ using UnityEngine.UI;
 
 namespace Assets._Code.UI.Menu
 {
-	internal class OverlayInfo : MonoBehaviour
+	internal class OverlayYesNo : MonoBehaviour
 	{
+		[SerializeField] private Button m_btnYes;
 		[SerializeField] private Button m_close;
 
 		[Header("Animation references")]
@@ -19,9 +20,21 @@ namespace Assets._Code.UI.Menu
 
 		private float m_delay = 0.3f;
 
+		private bool m_yes;
+		private Action<bool> m_onClose;
+
 		private void Start ()
 		{
-			m_close.onClick.AddListener(AnimateAway);
+			m_close.onClick.AddListener(() =>
+			{
+				m_yes = false;
+				AnimateAway();
+			});
+			m_btnYes.onClick.AddListener(() =>
+			{
+				m_yes = true;
+				AnimateAway();
+			});
 		}
 
 		public void Hide ()
@@ -35,12 +48,16 @@ namespace Assets._Code.UI.Menu
 			m_overlay.DOFade(0.0f, 0.5f).SetDelay(m_delay).OnComplete(() =>
 			{
 				transform.gameObject.SetActive(false);
+
+				m_onClose?.Invoke(m_yes);
 			});
 			m_content.DOAnchorPosY(-500, 0.5f);
 		}
 
-		public void Show ()
+		public void Show (Action<bool> onClose)
 		{
+			m_onClose = onClose;
+
 			m_close.interactable = true;
 			transform.gameObject.SetActive(true);
 			var anchoredPosition = m_content.anchoredPosition;
