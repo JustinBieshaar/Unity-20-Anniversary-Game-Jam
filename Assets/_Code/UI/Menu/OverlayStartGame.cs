@@ -18,6 +18,7 @@ namespace Assets._Code.UI.Menu
 
 		[Header("Text animation sequence")]
 		[SerializeField] private List<TextMeshProUGUI> m_texts;
+		[SerializeField] private List<TextMeshProUGUI> m_subTexts;
 		[SerializeField] private float m_textFadeDuration = 0.75f;
 		[SerializeField] private float m_textHoldDuration = 2.0f;
 
@@ -40,6 +41,13 @@ namespace Assets._Code.UI.Menu
 				color.a = 0;
 				item.color = color;
 			}
+
+			foreach (var item in m_subTexts)
+			{
+				var color = item.color;
+				color.a = 0;
+				item.color = color;
+			}
 		}
 
 		public void StartGameSequence ()
@@ -53,7 +61,11 @@ namespace Assets._Code.UI.Menu
 			{
 				DOVirtual.DelayedCall(0.5f, () =>
 				{
-					m_clock.AnimateAway(StartTextSequence);
+					m_clock.AnimateAway(()=> 
+					{
+						StartTextSequence();
+						StartSubTextsSequence();
+					});
 				});
 			});
 		}
@@ -74,6 +86,27 @@ namespace Assets._Code.UI.Menu
 			textsSequence.AppendInterval(1.0f);
 
 			textsSequence.OnComplete(StartGame);
+
+			textsSequence.Play();
+		}
+
+		private void StartSubTextsSequence ()
+		{
+			float delay = 0.2f;
+			float addedDuration = 0.2f;
+			Sequence textsSequence = DOTween.Sequence();
+
+			for (int i = 0; i < m_subTexts.Count; i++)
+			{
+				textsSequence.AppendInterval(delay);
+				textsSequence.Append(m_subTexts[i].DOFade(1, m_textFadeDuration + addedDuration));
+
+				textsSequence.AppendInterval(m_textHoldDuration - delay - addedDuration);
+
+				textsSequence.Append(m_subTexts[i].DOFade(0, m_textFadeDuration));
+			}
+
+			textsSequence.AppendInterval(1.0f);
 
 			textsSequence.Play();
 		}

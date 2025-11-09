@@ -55,7 +55,6 @@ namespace Assets._Code.Controls
 				if (m_boundCount != allTiles.Length)
 				{
 					m_boundCount = allTiles.Length;
-					Debug.Log($"bound count has been updated to: {m_boundCount}");
 					CalculateBounds();
 				}
 				ClampCamera();

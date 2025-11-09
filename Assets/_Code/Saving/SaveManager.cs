@@ -152,5 +152,10 @@ namespace Assets._Code.Saving
 		}
 
 		#endregion
+
+		private void OnApplicationQuit ()
+		{
+			SaveTilemaps();
+		}
 	}
 }
