@@ -1,214 +1,226 @@
 fileFormatVersion: 2
-guid: 0de494e923c540b419905141ee9671f5
+guid: 482fb48cc9e47fb42b2069d55bf0dc51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7889457441387205626
-    second: personal-brand 1_0
+      213: 6863699147814230079
+    second: brand-logo_0
   - first:
-      213: -658175234234704524
-    second: personal-brand 1_1
+      213: -1113906337159360625
+    second: brand-logo_1
   - first:
-      213: 2365733635144395270
-    second: personal-brand 1_2
+      213: -5622256342441320392
+    second: brand-logo_2
   - first:
-      213: 5708121056084750396
-    second: personal-brand 1_3
+      213: -5431016116690299606
+    second: brand-logo_3
   - first:
-      213: 9027086036334550857
-    second: personal-brand 1_4
+      213: -541580875130596122
+    second: brand-logo_4
   - first:
-      213: 8900516493574359589
-    second: personal-brand 1_5
+      213: -8750367208334154979
+    second: brand-logo_5
   - first:
-      213: -1505662792410106567
-    second: personal-brand 1_6
+      213: -8885156068775668502
+    second: brand-logo_6
   - first:
-      213: 7445274101419790672
-    second: personal-brand 1_7
+      213: -1321723655619746548
+    second: brand-logo_7
   - first:
-      213: -406014311400681982
-    second: personal-brand 1_8
+      213: -3350355064264583662
+    second: brand-logo_8
   - first:
-      213: 6786646683807751450
-    second: personal-brand 1_9
+      213: 2701056462022719890
+    second: brand-logo_9
   - first:
-      213: 4373870488765609780
-    second: personal-brand 1_10
+      213: 8250180687263944247
+    second: brand-logo_10
   - first:
-      213: -5364409743086805061
-    second: personal-brand 1_11
+      213: -5574665749119022620
+    second: brand-logo_11
   - first:
-      213: -110817782061218363
-    second: personal-brand 1_12
+      213: 2177760189389411940
+    second: brand-logo_12
   - first:
-      213: 9045692392807177844
-    second: personal-brand 1_13
+      213: -7800144364156475216
+    second: brand-logo_13
   - first:
-      213: 7486456376294807095
-    second: personal-brand 1_14
+      213: -1194545316918735002
+    second: brand-logo_14
   - first:
-      213: -1207764893856602999
-    second: personal-brand 1_15
+      213: -6566016419460275580
+    second: brand-logo_15
   - first:
-      213: -4518016521215991121
-    second: personal-brand 1_16
+      213: 4340689335817448468
+    second: brand-logo_16
   - first:
-      213: 2493943480376913313
-    second: personal-brand 1_17
+      213: 2355710063714659862
+    second: brand-logo_17
   - first:
-      213: 8164027409564618522
-    second: personal-brand 1_18
+      213: -6310396113005067184
+    second: brand-logo_18
   - first:
-      213: -1845644606614145750
-    second: personal-brand 1_19
+      213: 3897143287929912713
+    second: brand-logo_19
   - first:
-      213: 8869841343389230905
-    second: personal-brand 1_20
+      213: -1238064920965885736
+    second: brand-logo_20
   - first:
-      213: 5288390787844132814
-    second: personal-brand 1_21
+      213: -5403192321769356096
+    second: brand-logo_21
   - first:
-      213: -7001093468254617737
-    second: personal-brand 1_22
+      213: 5087349133927486260
+    second: brand-logo_22
   - first:
-      213: -6968827482191613778
-    second: personal-brand 1_23
+      213: 7834718685217936407
+    second: brand-logo_23
   - first:
-      213: -4765093353193442813
-    second: personal-brand 1_24
+      213: -3923804839787348655
+    second: brand-logo_24
   - first:
-      213: 7540351568559943608
-    second: personal-brand 1_25
+      213: 6313586795929004347
+    second: brand-logo_25
   - first:
-      213: -3583033066335818026
-    second: personal-brand 1_26
+      213: 8236847067344618608
+    second: brand-logo_26
   - first:
-      213: -4562859606266608370
-    second: personal-brand 1_27
+      213: -5148802856198386355
+    second: brand-logo_27
   - first:
-      213: -437599004031450810
-    second: personal-brand 1_28
+      213: 1852591122978913764
+    second: brand-logo_28
   - first:
-      213: -7617350560103162324
-    second: personal-brand 1_29
+      213: -755128388783997987
+    second: brand-logo_29
   - first:
-      213: 6448092138524294735
-    second: personal-brand 1_30
+      213: 2345635097722723080
+    second: brand-logo_30
   - first:
-      213: -5443307320939340587
-    second: personal-brand 1_31
+      213: 2944714216689496649
+    second: brand-logo_31
   - first:
-      213: 1592765692826155152
-    second: personal-brand 1_32
+      213: -3451620698356716696
+    second: brand-logo_32
   - first:
-      213: 2945408427488616457
-    second: personal-brand 1_33
+      213: 5322256828504160387
+    second: brand-logo_33
   - first:
-      213: 7204949261518134565
-    second: personal-brand 1_34
+      213: -1809742262209081973
+    second: brand-logo_34
   - first:
-      213: -8298918481712231247
-    second: personal-brand 1_35
+      213: -2998300174916907973
+    second: brand-logo_35
   - first:
-      213: 8102814694324321987
-    second: personal-brand 1_36
+      213: 8454444215267406633
+    second: brand-logo_36
   - first:
-      213: 9115717395728327233
-    second: personal-brand 1_37
+      213: 4311612699843899469
+    second: brand-logo_37
   - first:
-      213: -2070893973536688189
-    second: personal-brand 1_38
+      213: 7394102308390463069
+    second: brand-logo_38
   - first:
-      213: -5427185142574841233
-    second: personal-brand 1_39
+      213: 7227193881905599317
+    second: brand-logo_39
   - first:
-      213: 4235557539011618374
-    second: personal-brand 1_40
+      213: 4449763424802390068
+    second: brand-logo_40
   - first:
-      213: 3174587637931254481
-    second: personal-brand 1_41
+      213: -7435606613484742850
+    second: brand-logo_41
   - first:
-      213: -9033074313416268693
-    second: personal-brand 1_42
+      213: 221587507569674126
+    second: brand-logo_42
   - first:
-      213: -961933395075379837
-    second: personal-brand 1_43
+      213: 1895528830289651444
+    second: brand-logo_43
   - first:
-      213: -2161172674608978710
-    second: personal-brand 1_44
+      213: 4432316240982588352
+    second: brand-logo_44
   - first:
-      213: 4026362993005904308
-    second: personal-brand 1_45
+      213: 6863845101691039420
+    second: brand-logo_45
   - first:
-      213: 3597387523979828613
-    second: personal-brand 1_46
+      213: 4274473122708691554
+    second: brand-logo_46
   - first:
-      213: 8639169668028023954
-    second: personal-brand 1_47
+      213: -2493729091751048192
+    second: brand-logo_47
   - first:
-      213: 7003563368938345021
-    second: personal-brand 1_48
+      213: 2005578883468048252
+    second: brand-logo_48
   - first:
-      213: 2505358053037235317
-    second: personal-brand 1_49
+      213: 4016913266958363068
+    second: brand-logo_49
   - first:
-      213: -3491363097392366526
-    second: personal-brand 1_50
+      213: 8300226974032341531
+    second: brand-logo_50
   - first:
-      213: -6567642902783015519
-    second: personal-brand 1_51
+      213: 5289017814349945752
+    second: brand-logo_51
   - first:
-      213: -956239532189554508
-    second: personal-brand 1_52
+      213: 6102131203532113943
+    second: brand-logo_52
   - first:
-      213: 852954189641594558
-    second: personal-brand 1_53
+      213: -1346749287753539623
+    second: brand-logo_53
   - first:
-      213: -2968542998770622180
-    second: personal-brand 1_54
+      213: -377738571770671695
+    second: brand-logo_54
   - first:
-      213: 727405018314935153
-    second: personal-brand 1_55
+      213: 2825750405512286250
+    second: brand-logo_55
   - first:
-      213: 1236152149882483443
-    second: personal-brand 1_56
+      213: 6375942721168542874
+    second: brand-logo_56
   - first:
-      213: -3649497832271245429
-    second: personal-brand 1_57
+      213: -240017995854156496
+    second: brand-logo_57
   - first:
-      213: 1780449812515121946
-    second: personal-brand 1_58
+      213: 7710965504251692287
+    second: brand-logo_58
   - first:
-      213: -6149056191634138362
-    second: personal-brand 1_59
+      213: -1008280146163001881
+    second: brand-logo_59
   - first:
-      213: 6628822296113720223
-    second: personal-brand 1_60
+      213: 958916492654506294
+    second: brand-logo_60
   - first:
-      213: -3195095428734343562
-    second: personal-brand 1_61
+      213: -5675927083574912659
+    second: brand-logo_61
   - first:
-      213: 928577935579498707
-    second: personal-brand 1_62
+      213: 1596849868322345095
+    second: brand-logo_62
   - first:
-      213: -5739260462816446641
-    second: personal-brand 1_63
+      213: -6601105106129885470
+    second: brand-logo_63
   - first:
-      213: -5400581206515391440
-    second: personal-brand 1_64
+      213: 8754592309075398380
+    second: brand-logo_64
   - first:
-      213: 1161844467971929510
-    second: personal-brand 1_65
+      213: 1334027934991195702
+    second: brand-logo_65
   - first:
-      213: 686388008535738477
-    second: personal-brand 1_66
+      213: -6077631625917638357
+    second: brand-logo_66
   - first:
-      213: 9097272755953781580
-    second: personal-brand 1_67
+      213: -1067311183895002456
+    second: brand-logo_67
   - first:
-      213: -7472227095898671613
-    second: personal-brand 1_68
+      213: -8452027281375238225
+    second: brand-logo_68
+  - first:
+      213: 2514310709155202606
+    second: brand-logo_69
+  - first:
+      213: -6388011363031952104
+    second: brand-logo_70
+  - first:
+      213: 5450227287018987879
+    second: brand-logo_71
+  - first:
+      213: 3472687290884666212
+    second: brand-logo_72
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -330,13 +342,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personal-brand 1_0
+      name: brand-logo_0
       rect:
         serializedVersion: 2
-        x: 151
-        y: 207
-        width: 308
-        height: 308
+        x: 54
+        y: 178
+        width: 366
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,20 +357,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60cad87d144038290800000000000000
-      internalID: -7889457441387205626
+      spriteID: f385e9e6202c04f50800000000000000
+      internalID: 6863699147814230079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_1
+      name: brand-logo_1
       rect:
         serializedVersion: 2
-        x: 519
-        y: 230
-        width: 22
-        height: 260
+        x: 494
+        y: 203
+        width: 27
+        height: 314
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,42 +379,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47d1b739c11bdd6f0800000000000000
-      internalID: -658175234234704524
+      spriteID: f8f4f8c861c9a80f0800000000000000
+      internalID: -1113906337159360625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_2
+      name: brand-logo_2
       rect:
         serializedVersion: 2
-        x: 572
-        y: 440
-        width: 21
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60aa9fbf436c4d020800000000000000
-      internalID: 2365733635144395270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_3
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 440
+        x: 558
+        y: 457
         width: 24
-        height: 35
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,20 +401,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30fbda8bd1573f40800000000000000
-      internalID: 5708121056084750396
+      spriteID: 830299005abb9f1b0800000000000000
+      internalID: -5622256342441320392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_4
+      name: brand-logo_3
       rect:
         serializedVersion: 2
-        x: 684
-        y: 469
-        width: 8
-        height: 8
+        x: 651
+        y: 457
+        width: 29
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94f1c982ce6a64d70800000000000000
-      internalID: 9027086036334550857
+      spriteID: a25d04bdd9721a4b0800000000000000
+      internalID: -5431016116690299606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_5
+      name: brand-logo_4
       rect:
         serializedVersion: 2
-        x: 753
-        y: 440
-        width: 24
-        height: 37
+        x: 694
+        y: 492
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,658 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a410d089cf48b70800000000000000
-      internalID: 8900516493574359589
+      spriteID: 6e412b0401beb78f0800000000000000
+      internalID: -541580875130596122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_6
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 440
-        width: 24
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9357fdaeaafca1be0800000000000000
-      internalID: -1505662792410106567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_7
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 440
-        width: 24
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 051da86395de25760800000000000000
-      internalID: 7445274101419790672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_8
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 441
-        width: 24
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20ecc3b822c8d5af0800000000000000
-      internalID: -406014311400681982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_9
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 469
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1d9174a3330f2e50800000000000000
-      internalID: 6786646683807751450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_10
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 441
-        width: 22
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4373078290c13bc30800000000000000
-      internalID: 4373870488765609780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_11
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 440
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbf9aa1b2c9cd85b0800000000000000
-      internalID: -5364409743086805061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_12
-      rect:
-        serializedVersion: 2
-        x: 625
-        y: 440
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c5c17970db467ef0800000000000000
-      internalID: -110817782061218363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_13
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 441
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47e99bc1e41c88d70800000000000000
-      internalID: 9045692392807177844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_14
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 441
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7369287c86c35e760800000000000000
-      internalID: 7486456376294807095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_15
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 440
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9846d716a382d3fe0800000000000000
-      internalID: -1207764893856602999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_16
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 440
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa2239359e7cc41c0800000000000000
-      internalID: -4518016521215991121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_17
-      rect:
-        serializedVersion: 2
-        x: 937
-        y: 441
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ad64c5c1644c9220800000000000000
-      internalID: 2493943480376913313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_18
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 440
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1fc6a39ca37c4170800000000000000
-      internalID: 8164027409564618522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_19
-      rect:
-        serializedVersion: 2
-        x: 990
-        y: 440
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a25f5294204f266e0800000000000000
-      internalID: -1845644606614145750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_20
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 440
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 937e9c615b1081b70800000000000000
-      internalID: 8869841343389230905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_21
-      rect:
-        serializedVersion: 2
-        x: 1067
-        y: 440
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecfc5e60763246940800000000000000
-      internalID: 5288390787844132814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_22
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 441
-        width: 25
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77f3061859e17de90800000000000000
-      internalID: -7001093468254617737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_23
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 401
-        width: 15
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea03dfec350c94f90800000000000000
-      internalID: -6968827482191613778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_24
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 401
-        width: 15
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 302745187dcfeddb0800000000000000
-      internalID: -4765093353193442813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_25
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 403
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bf23951dc5b4a860800000000000000
-      internalID: 7540351568559943608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_26
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 403
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6de239ee862864ec0800000000000000
-      internalID: -3583033066335818026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_27
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 404
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e050088fc577da0c0800000000000000
-      internalID: -4562859606266608370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_28
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64104aa36065de9f0800000000000000
-      internalID: -437599004031450810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_29
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 404
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2e9d67260cb94690800000000000000
-      internalID: -7617350560103162324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_30
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4ebab3f2a93c7950800000000000000
-      internalID: 6448092138524294735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_31
-      rect:
-        serializedVersion: 2
-        x: 719
-        y: 404
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5dc902cd4dc7574b0800000000000000
-      internalID: -5443307320939340587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_32
-      rect:
-        serializedVersion: 2
-        x: 734
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 098f45375f3aa1610800000000000000
-      internalID: 1592765692826155152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_33
-      rect:
-        serializedVersion: 2
-        x: 749
-        y: 404
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 900a6eefb5130e820800000000000000
-      internalID: 2945408427488616457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_34
-      rect:
-        serializedVersion: 2
-        x: 763
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52d508d0e2f1df360800000000000000
-      internalID: 7204949261518134565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_35
+      name: brand-logo_5
       rect:
         serializedVersion: 2
         x: 777
-        y: 398
-        width: 14
-        height: 21
+        y: 457
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bc4e954c9154dc80800000000000000
-      internalID: -8298918481712231247
+      spriteID: d13240da263709680800000000000000
+      internalID: -8750367208334154979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_36
+      name: brand-logo_6
       rect:
         serializedVersion: 2
-        x: 792
-        y: 403
-        width: 14
-        height: 16
+        x: 870
+        y: 457
+        width: 29
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ce3400b80bf27070800000000000000
-      internalID: 8102814694324321987
+      spriteID: ae458ba81a591b480800000000000000
+      internalID: -8885156068775668502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_37
+      name: brand-logo_7
       rect:
         serializedVersion: 2
-        x: 806
-        y: 404
-        width: 15
-        height: 15
+        x: 902
+        y: 457
+        width: 29
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1159,20 +511,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1426c3d9ca8818e70800000000000000
-      internalID: 9115717395728327233
+      spriteID: c05ed87865b48ade0800000000000000
+      internalID: -1321723655619746548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_38
+      name: brand-logo_8
       rect:
         serializedVersion: 2
-        x: 834
-        y: 403
-        width: 30
-        height: 22
+        x: 966
+        y: 458
+        width: 27
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1181,393 +533,415 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c739d337e4b243e0800000000000000
-      internalID: -2070893973536688189
+      spriteID: 216141be1d52181d0800000000000000
+      internalID: -3350355064264583662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_39
+      name: brand-logo_9
       rect:
         serializedVersion: 2
-        x: 878
-        y: 403
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f628c860ed3cea4b0800000000000000
-      internalID: -5427185142574841233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_40
-      rect:
-        serializedVersion: 2
-        x: 892
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 646e38a0429b7ca30800000000000000
-      internalID: 4235557539011618374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_41
-      rect:
-        serializedVersion: 2
-        x: 906
-        y: 404
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d22d3313a66e0c20800000000000000
-      internalID: 3174587637931254481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_42
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 403
-        width: 15
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b642e1f65c214a280800000000000000
-      internalID: -9033074313416268693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_43
-      rect:
-        serializedVersion: 2
-        x: 935
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38d42f87ca686a2f0800000000000000
-      internalID: -961933395075379837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_44
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 404
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae4a6af17e8f102e0800000000000000
-      internalID: -2161172674608978710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_45
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 403
-        width: 15
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b145ee3fc380e730800000000000000
-      internalID: 4026362993005904308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_46
-      rect:
-        serializedVersion: 2
-        x: 993
-        y: 403
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58d5d3ea4ec7ce130800000000000000
-      internalID: 3597387523979828613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_47
-      rect:
-        serializedVersion: 2
-        x: 1007
-        y: 404
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 294c3217a0f74e770800000000000000
-      internalID: 8639169668028023954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_48
-      rect:
-        serializedVersion: 2
-        x: 1021
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d32128f07c7a13160800000000000000
-      internalID: 7003563368938345021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_49
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 403
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57cd27210e1d4c220800000000000000
-      internalID: 2505358053037235317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_50
-      rect:
-        serializedVersion: 2
-        x: 1049
-        y: 403
-        width: 15
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24c350ec2cf2c8fc0800000000000000
-      internalID: -3491363097392366526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_51
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 403
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a5c008a39b0bd4a0800000000000000
-      internalID: -6567642902783015519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_52
-      rect:
-        serializedVersion: 2
-        x: 1079
-        y: 404
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b8e7ab3631cab2f0800000000000000
-      internalID: -956239532189554508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_53
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 304
-        width: 73
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb6b44bf05d46db00800000000000000
-      internalID: 852954189641594558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_54
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 279
-        width: 60
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c11edc1eedd9dc6d0800000000000000
-      internalID: -2968542998770622180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_55
-      rect:
-        serializedVersion: 2
-        x: 756
-        y: 306
-        width: 61
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17b8f7c9203481a00800000000000000
-      internalID: 727405018314935153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_56
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 277
+        x: 1008
+        y: 492
         width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29933299a841c7520800000000000000
+      internalID: 2701056462022719890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_10
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 458
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ec72daf978e7270800000000000000
+      internalID: 8250180687263944247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_11
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 457
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9493a790fc2a2b0800000000000000
+      internalID: -5574665749119022620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 457
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4661b8e9a55f83e10800000000000000
+      internalID: 2177760189389411940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_13
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 458
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b820b9170250c390800000000000000
+      internalID: -7800144364156475216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_14
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 458
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fc3fcfc5f1c6fe0800000000000000
+      internalID: -1194545316918735002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_15
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 457
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48220b0dad2d0e4a0800000000000000
+      internalID: -6566016419460275580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_16
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 457
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca9b5f3f93d3c30800000000000000
+      internalID: 4340689335817448468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_17
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 458
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e668562d921b020800000000000000
+      internalID: 2355710063714659862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 457
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054c35c4b28fc68a0800000000000000
+      internalID: -6310396113005067184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_19
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 457
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3cd32c2f651630800000000000000
+      internalID: 3897143287929912713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 457
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d4f0938281dee0800000000000000
+      internalID: -1238064920965885736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_21
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 457
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4c1dfe5310405b0800000000000000
+      internalID: -5403192321769356096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_22
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 458
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43393285515e99640800000000000000
+      internalID: 5087349133927486260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 409
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714d78352238abc60800000000000000
+      internalID: 7834718685217936407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_24
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 409
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d34849948db89c0800000000000000
+      internalID: -3923804839787348655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_25
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 412
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39e1f57dbd5e9750800000000000000
+      internalID: 6313586795929004347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_26
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0744b4e54c82f4270800000000000000
+      internalID: 8236847067344618608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_27
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 413
+        width: 18
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1577,20 +951,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f2b416b4d1b72110800000000000000
-      internalID: 1236152149882483443
+      spriteID: d4d47c1f417cb88b0800000000000000
+      internalID: -5148802856198386355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_57
+      name: brand-logo_28
       rect:
         serializedVersion: 2
-        x: 796
-        y: 280
-        width: 10
-        height: 11
+        x: 667
+        y: 412
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,129 +973,789 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8f0ae2be016a5dc0800000000000000
-      internalID: -3649497832271245429
+      spriteID: 4ed33379fc9b5b910800000000000000
+      internalID: 1852591122978913764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_58
+      name: brand-logo_29
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 413
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb77b23bbe3585f0800000000000000
+      internalID: -755128388783997987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_30
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b937491be5d8020800000000000000
+      internalID: 2345635097722723080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_31
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 413
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f1d27af9bdd820800000000000000
+      internalID: 2944714216689496649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_32
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bef0723416910d0800000000000000
+      internalID: -3451620698356716696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_33
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 413
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388336213647cd940800000000000000
+      internalID: 5322256828504160387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_34
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 412
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d040e300182e6e0800000000000000
+      internalID: -1809742262209081973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_35
       rect:
         serializedVersion: 2
         x: 805
-        y: 280
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1bef57dbad65b810800000000000000
-      internalID: 1780449812515121946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_59
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 281
-        width: 18
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60b1bb909f92aaaa0800000000000000
-      internalID: -6149056191634138362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_60
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 280
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9b2c0fd1ce4efb50800000000000000
-      internalID: 6628822296113720223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_61
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 281
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 676a0dac2adb8a3d0800000000000000
-      internalID: -3195095428734343562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_62
-      rect:
-        serializedVersion: 2
-        x: 855
-        y: 280
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d84b7c66b8f2ec00800000000000000
-      internalID: 928577935579498707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personal-brand 1_63
-      rect:
-        serializedVersion: 2
-        x: 865
-        y: 280
+        y: 406
         width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c061860e5e366d0800000000000000
+      internalID: -2998300174916907973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_36
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923be506838345570800000000000000
+      internalID: 8454444215267406633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_37
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 413
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40324718ece5db30800000000000000
+      internalID: 4311612699843899469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_38
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 412
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d566284bfd02d9660800000000000000
+      internalID: 7394102308390463069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_39
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 412
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5531cd55b862c4460800000000000000
+      internalID: 7227193881905599317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_40
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 412
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4304fdd424cb0cd30800000000000000
+      internalID: 4449763424802390068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_41
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 412
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3752b93e2b6fc890800000000000000
+      internalID: -7435606613484742850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 413
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87ca530aac331300800000000000000
+      internalID: 221587507569674126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_43
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 412
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f62dee9d654e4a10800000000000000
+      internalID: 1895528830289651444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_44
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb36f34320c28d30800000000000000
+      internalID: 4432316240982588352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_45
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 413
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe6997f0c6414f50800000000000000
+      internalID: 6863845101691039420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_46
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 412
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a910178aaf15b30800000000000000
+      internalID: 4274473122708691554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_47
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 412
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c0f187a9e746dd0800000000000000
+      internalID: -2493729091751048192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_48
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 413
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7733265e5f35db10800000000000000
+      internalID: 2005578883468048252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_49
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb96b927551feb730800000000000000
+      internalID: 4016913266958363068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_50
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a2056d474503370800000000000000
+      internalID: 8300226974032341531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_51
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 412
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b9a030ead566940800000000000000
+      internalID: 5289017814349945752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_52
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 412
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718cb57cfff1fa450800000000000000
+      internalID: 6102131203532113943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_53
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 413
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df90fd78a26f4de0800000000000000
+      internalID: -1346749287753539623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_54
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 292
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd45a335c002caf0800000000000000
+      internalID: -377738571770671695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_55
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 295
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20d978b505173720800000000000000
+      internalID: 2825750405512286250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_56
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 296
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c0d7baf16eb7850800000000000000
+      internalID: 6375942721168542874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_57
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 248
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d696987e84bacf0800000000000000
+      internalID: -240017995854156496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_58
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 239
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4863c854ad20b60800000000000000
+      internalID: 7710965504251692287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_59
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 237
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e510e59c8ed102f0800000000000000
+      internalID: -1008280146163001881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_60
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 242
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6317fe13871ce4d00800000000000000
+      internalID: 958916492654506294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_61
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 242
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d699f7cc36e0b31b0800000000000000
+      internalID: -5675927083574912659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_62
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 242
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7809bf8ae76292610800000000000000
+      internalID: 1596849868322345095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_63
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 243
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e66c1051e92464a0800000000000000
+      internalID: -6601105106129885470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_64
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 243
+        width: 13
         height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1731,20 +1765,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f47b168540d0a50b0800000000000000
-      internalID: -5739260462816446641
+      spriteID: cee4ecf325f8e7970800000000000000
+      internalID: 8754592309075398380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_64
+      name: brand-logo_65
       rect:
         serializedVersion: 2
-        x: 871
-        y: 284
-        width: 87
-        height: 84
+        x: 874
+        y: 242
+        width: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1753,20 +1787,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 034eff491084d05b0800000000000000
-      internalID: -5400581206515391440
+      spriteID: 63e1991c65b638210800000000000000
+      internalID: 1334027934991195702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_65
+      name: brand-logo_66
       rect:
         serializedVersion: 2
-        x: 881
-        y: 280
-        width: 9
-        height: 11
+        x: 887
+        y: 243
+        width: 14
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1775,20 +1809,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a538bd4363bf1010800000000000000
-      internalID: 1161844467971929510
+      spriteID: b29df75ac3ae7aba0800000000000000
+      internalID: -6077631625917638357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_66
+      name: brand-logo_67
       rect:
         serializedVersion: 2
-        x: 889
-        y: 280
-        width: 9
-        height: 11
+        x: 901
+        y: 242
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1797,20 +1831,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d684cd2d14a868900800000000000000
-      internalID: 686388008535738477
+      spriteID: 8a2032312262031f0800000000000000
+      internalID: -1067311183895002456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_67
+      name: brand-logo_68
       rect:
         serializedVersion: 2
-        x: 898
-        y: 281
-        width: 10
-        height: 10
+        x: 915
+        y: 242
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1819,20 +1853,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4bc6734f51004e70800000000000000
-      internalID: 9097272755953781580
+      spriteID: fa7e7b5e7fd54ba80800000000000000
+      internalID: -8452027281375238225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personal-brand 1_68
+      name: brand-logo_69
       rect:
         serializedVersion: 2
-        x: 991
-        y: 304
-        width: 71
-        height: 71
+        x: 929
+        y: 243
+        width: 13
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1841,8 +1875,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30639ebbb015d4890800000000000000
-      internalID: -7472227095898671613
+      spriteID: e260822c440a4e220800000000000000
+      internalID: 2514310709155202606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_70
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 242
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815525da2893957a0800000000000000
+      internalID: -6388011363031952104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_71
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 242
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76168eb47d813ab40800000000000000
+      internalID: 5450227287018987879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brand-logo_72
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 243
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463b13521b6713030800000000000000
+      internalID: 3472687290884666212
       vertices: []
       indices: 
       edges: []
@@ -1861,75 +1961,79 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      personal-brand 1_0: -7889457441387205626
-      personal-brand 1_1: -658175234234704524
-      personal-brand 1_10: 4373870488765609780
-      personal-brand 1_11: -5364409743086805061
-      personal-brand 1_12: -110817782061218363
-      personal-brand 1_13: 9045692392807177844
-      personal-brand 1_14: 7486456376294807095
-      personal-brand 1_15: -1207764893856602999
-      personal-brand 1_16: -4518016521215991121
-      personal-brand 1_17: 2493943480376913313
-      personal-brand 1_18: 8164027409564618522
-      personal-brand 1_19: -1845644606614145750
-      personal-brand 1_2: 2365733635144395270
-      personal-brand 1_20: 8869841343389230905
-      personal-brand 1_21: 5288390787844132814
-      personal-brand 1_22: -7001093468254617737
-      personal-brand 1_23: -6968827482191613778
-      personal-brand 1_24: -4765093353193442813
-      personal-brand 1_25: 7540351568559943608
-      personal-brand 1_26: -3583033066335818026
-      personal-brand 1_27: -4562859606266608370
-      personal-brand 1_28: -437599004031450810
-      personal-brand 1_29: -7617350560103162324
-      personal-brand 1_3: 5708121056084750396
-      personal-brand 1_30: 6448092138524294735
-      personal-brand 1_31: -5443307320939340587
-      personal-brand 1_32: 1592765692826155152
-      personal-brand 1_33: 2945408427488616457
-      personal-brand 1_34: 7204949261518134565
-      personal-brand 1_35: -8298918481712231247
-      personal-brand 1_36: 8102814694324321987
-      personal-brand 1_37: 9115717395728327233
-      personal-brand 1_38: -2070893973536688189
-      personal-brand 1_39: -5427185142574841233
-      personal-brand 1_4: 9027086036334550857
-      personal-brand 1_40: 4235557539011618374
-      personal-brand 1_41: 3174587637931254481
-      personal-brand 1_42: -9033074313416268693
-      personal-brand 1_43: -961933395075379837
-      personal-brand 1_44: -2161172674608978710
-      personal-brand 1_45: 4026362993005904308
-      personal-brand 1_46: 3597387523979828613
-      personal-brand 1_47: 8639169668028023954
-      personal-brand 1_48: 7003563368938345021
-      personal-brand 1_49: 2505358053037235317
-      personal-brand 1_5: 8900516493574359589
-      personal-brand 1_50: -3491363097392366526
-      personal-brand 1_51: -6567642902783015519
-      personal-brand 1_52: -956239532189554508
-      personal-brand 1_53: 852954189641594558
-      personal-brand 1_54: -2968542998770622180
-      personal-brand 1_55: 727405018314935153
-      personal-brand 1_56: 1236152149882483443
-      personal-brand 1_57: -3649497832271245429
-      personal-brand 1_58: 1780449812515121946
-      personal-brand 1_59: -6149056191634138362
-      personal-brand 1_6: -1505662792410106567
-      personal-brand 1_60: 6628822296113720223
-      personal-brand 1_61: -3195095428734343562
-      personal-brand 1_62: 928577935579498707
-      personal-brand 1_63: -5739260462816446641
-      personal-brand 1_64: -5400581206515391440
-      personal-brand 1_65: 1161844467971929510
-      personal-brand 1_66: 686388008535738477
-      personal-brand 1_67: 9097272755953781580
-      personal-brand 1_68: -7472227095898671613
-      personal-brand 1_7: 7445274101419790672
-      personal-brand 1_8: -406014311400681982
-      personal-brand 1_9: 6786646683807751450
+      brand-logo_0: 6863699147814230079
+      brand-logo_1: -1113906337159360625
+      brand-logo_10: 8250180687263944247
+      brand-logo_11: -5574665749119022620
+      brand-logo_12: 2177760189389411940
+      brand-logo_13: -7800144364156475216
+      brand-logo_14: -1194545316918735002
+      brand-logo_15: -6566016419460275580
+      brand-logo_16: 4340689335817448468
+      brand-logo_17: 2355710063714659862
+      brand-logo_18: -6310396113005067184
+      brand-logo_19: 3897143287929912713
+      brand-logo_2: -5622256342441320392
+      brand-logo_20: -1238064920965885736
+      brand-logo_21: -5403192321769356096
+      brand-logo_22: 5087349133927486260
+      brand-logo_23: 7834718685217936407
+      brand-logo_24: -3923804839787348655
+      brand-logo_25: 6313586795929004347
+      brand-logo_26: 8236847067344618608
+      brand-logo_27: -5148802856198386355
+      brand-logo_28: 1852591122978913764
+      brand-logo_29: -755128388783997987
+      brand-logo_3: -5431016116690299606
+      brand-logo_30: 2345635097722723080
+      brand-logo_31: 2944714216689496649
+      brand-logo_32: -3451620698356716696
+      brand-logo_33: 5322256828504160387
+      brand-logo_34: -1809742262209081973
+      brand-logo_35: -2998300174916907973
+      brand-logo_36: 8454444215267406633
+      brand-logo_37: 4311612699843899469
+      brand-logo_38: 7394102308390463069
+      brand-logo_39: 7227193881905599317
+      brand-logo_4: -541580875130596122
+      brand-logo_40: 4449763424802390068
+      brand-logo_41: -7435606613484742850
+      brand-logo_42: 221587507569674126
+      brand-logo_43: 1895528830289651444
+      brand-logo_44: 4432316240982588352
+      brand-logo_45: 6863845101691039420
+      brand-logo_46: 4274473122708691554
+      brand-logo_47: -2493729091751048192
+      brand-logo_48: 2005578883468048252
+      brand-logo_49: 4016913266958363068
+      brand-logo_5: -8750367208334154979
+      brand-logo_50: 8300226974032341531
+      brand-logo_51: 5289017814349945752
+      brand-logo_52: 6102131203532113943
+      brand-logo_53: -1346749287753539623
+      brand-logo_54: -377738571770671695
+      brand-logo_55: 2825750405512286250
+      brand-logo_56: 6375942721168542874
+      brand-logo_57: -240017995854156496
+      brand-logo_58: 7710965504251692287
+      brand-logo_59: -1008280146163001881
+      brand-logo_6: -8885156068775668502
+      brand-logo_60: 958916492654506294
+      brand-logo_61: -5675927083574912659
+      brand-logo_62: 1596849868322345095
+      brand-logo_63: -6601105106129885470
+      brand-logo_64: 8754592309075398380
+      brand-logo_65: 1334027934991195702
+      brand-logo_66: -6077631625917638357
+      brand-logo_67: -1067311183895002456
+      brand-logo_68: -8452027281375238225
+      brand-logo_69: 2514310709155202606
+      brand-logo_7: -1321723655619746548
+      brand-logo_70: -6388011363031952104
+      brand-logo_71: 5450227287018987879
+      brand-logo_72: 3472687290884666212
+      brand-logo_8: -3350355064264583662
+      brand-logo_9: 2701056462022719890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

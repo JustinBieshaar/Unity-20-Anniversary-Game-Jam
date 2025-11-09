@@ -85,9 +85,9 @@ namespace Assets._Code.Saving
 			string json = JsonUtility.ToJson(saveData, true);
 
 #if UNITY_WEBGL && !UNITY_EDITOR
-            PlayerPrefs.SetString($"TilemapWorld{slot}", json);
+            PlayerPrefs.SetString($"TilemapWorld{m_currentSlot}", json);
             PlayerPrefs.Save();
-            Debug.Log($"Tilemaps saved to slot {slot} (WebGL)");
+            Debug.Log($"Tilemaps saved to slot {m_currentSlot} (WebGL)");
 #else
 			File.WriteAllText(SaveHelper.GetSaveFilePath(m_currentSlot), json);
 			Debug.Log($"Tilemaps saved to slot {m_currentSlot}");
@@ -97,10 +97,10 @@ namespace Assets._Code.Saving
 		public void LoadTilemaps ()
 		{
 #if UNITY_WEBGL && !UNITY_EDITOR
-            string key = $"TilemapWorld{slot}";
+            string key = $"TilemapWorld{m_currentSlot}";
             if (!PlayerPrefs.HasKey(key))
             {
-                Debug.LogWarning($"Save slot {slot} not found (WebGL)!");
+                Debug.LogWarning($"Save slot {m_currentSlot} not found (WebGL)!");
                 return;
             }
             string json = PlayerPrefs.GetString(key);
