@@ -1,5 +1,6 @@
 ﻿using Assets._Code.Blobs.Data;
 using Assets._Code.Building.Data;
+using Assets._Code.UI;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -113,6 +114,11 @@ namespace Assets._Code.Blobs
 				if (blobReq == null) continue;
 
 				int desiredCount = CalculateBlobCount(blobReq, region.Tiles.Count, region.TreeCount);
+
+				if (desiredCount > 0)
+				{
+					UITip.Instance.Hide(); // quick and dirty...
+				}
 
 				if (!m_regionBlobs.TryGetValue(key, out var blobList))
 					blobList = new List<Blob>();
