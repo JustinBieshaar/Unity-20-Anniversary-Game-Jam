@@ -182,7 +182,7 @@ namespace Assets._Code.Building
 
 				if (m_currentDemolishTileMap != null && m_currentDemolishTileMap.HasTile(cellPos))
 				{
-					SoundManager.Instance.PlaySFX(m_demolishAudioClip, 0.1f);
+					SoundManager.Instance.PlaySFX(m_demolishAudioClip, 0.1f, 0.4f);
 				}
 
 				m_currentDemolishTileMap?.SetTile(cellPos, null);
@@ -206,7 +206,7 @@ namespace Assets._Code.Building
 
 			// Animate pop-in
 			animObj.transform.DOScale(1f, 0.25f).SetEase(Ease.OutBack);
-			SoundManager.Instance.PlaySFX(m_placeAudioClip, 0.1f);
+			SoundManager.Instance.PlaySFX(m_placeAudioClip, 0.1f, 0.2f);
 
 			// Wait for animation
 			yield return new WaitForSeconds(0.25f);

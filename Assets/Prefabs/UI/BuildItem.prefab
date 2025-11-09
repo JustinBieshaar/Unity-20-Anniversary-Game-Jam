@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3509067421665316683}
   - component: {fileID: 860088213044092820}
   - component: {fileID: 6318943636938385393}
+  - component: {fileID: 7235756641819560056}
   m_Layer: 5
   m_Name: BuildItem
   m_TagString: Untagged
@@ -212,3 +213,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7235756641819560056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624883555078161757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c85e7951930c2488f4f82063c8a819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets._Code.UI.AudioButton
+  m_clip: {fileID: 8300000, guid: 976bc9810e2d46d43a0988fa4e2746f8, type: 3}
