@@ -39,13 +39,7 @@ namespace Assets._Code.Saving
 
 		private void Awake ()
 		{
-			if (Instance != null && Instance != this)
-			{
-				Destroy(gameObject);
-				return;
-			}
 			Instance = this;
-			DontDestroyOnLoad(gameObject);
 
 			m_currentSlot = PlayerPrefs.GetInt(PrefKeys.KEY_CURRENT_SAVE);
 		}

@@ -1,3 +1,4 @@
+using Assets._Code.Blobs;
 using Assets._Code.Building.Data;
 using Assets._Code.Sound;
 using DG.Tweening;
@@ -99,7 +100,7 @@ namespace Assets._Code.Building
 					{
 						m_tilemap.SetTile(cellPos, null);
 					}
-					StartCoroutine(AnimateTilePlacement(cellPos));
+					StartCoroutine(AnimateTilePlacement(cellPos, true));
 				}
 
 			}
@@ -183,6 +184,7 @@ namespace Assets._Code.Building
 				if (m_currentDemolishTileMap != null && m_currentDemolishTileMap.HasTile(cellPos))
 				{
 					SoundManager.Instance.PlaySFX(m_demolishAudioClip, 0.1f, 0.4f);
+					BlobManager.Instance.Distribute();
 				}
 
 				m_currentDemolishTileMap?.SetTile(cellPos, null);
@@ -192,7 +194,7 @@ namespace Assets._Code.Building
 			}
 		}
 
-		private System.Collections.IEnumerator AnimateTilePlacement (Vector3Int cellPos)
+		private System.Collections.IEnumerator AnimateTilePlacement (Vector3Int cellPos, bool triggerDistribution = false)
 		{
 			m_animPositions.Add(cellPos);
 			Vector3 worldPos = m_tilemap.GetCellCenterWorld(cellPos);
@@ -217,6 +219,9 @@ namespace Assets._Code.Building
 			// Remove the animation object
 			Destroy(animObj);
 			m_animPositions.Remove(cellPos);
+
+			if(triggerDistribution)
+				BlobManager.Instance.Distribute();
 		}
 
 		private System.Collections.IEnumerator PlaceFieldTiles (Vector3Int min, Vector3Int max)
@@ -233,6 +238,8 @@ namespace Assets._Code.Building
 					}
 				}
 			}
+
+			BlobManager.Instance.Distribute();
 		}
 
 		public void ToggleDemolish ()

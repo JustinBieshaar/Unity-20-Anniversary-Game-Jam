@@ -1,4 +1,5 @@
-﻿using Assets._Code.Sound;
+﻿using Assets._Code.Saving;
+using Assets._Code.Sound;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Assets._Code.UI
 		{
 			GetComponent<Button>().onClick.AddListener(() =>
 			{
+				SaveManager.Instance.SaveTilemaps();
 				SoundManager.Instance.Reset();
 				SceneManager.LoadScene(0);
 			});

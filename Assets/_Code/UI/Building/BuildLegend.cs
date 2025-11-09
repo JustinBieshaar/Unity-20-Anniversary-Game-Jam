@@ -99,7 +99,6 @@ namespace Assets._Code.UI.Building
 			if (m_activeButtonMap == buttonMap)
 			{
 				m_activeButtonMap = null;
-				BlobManager.Instance.Distribute();
 				return;
 			}
 

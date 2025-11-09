@@ -44,9 +44,13 @@ namespace Assets._Code.Blobs
 			Vector3Int.up, Vector3Int.down, Vector3Int.left, Vector3Int.right
 		};
 
-		private void Start ()
+		private void Awake ()
 		{
 			s_instance = this;
+		}
+
+		private void Start ()
+		{
 			Distribute();
 		}
 

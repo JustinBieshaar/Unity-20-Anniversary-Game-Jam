@@ -38,11 +38,14 @@ namespace Assets._Code.UI
 		{
 			float duration = 2.2f;
 
+			float addingMinutes = UnityEngine.Random.Range(800, 4320);
+			float addingHours = (addingMinutes / 360) * (360 / 12);
+
 			// Random small rotation & fly-away for each hand
 			if (m_hourHand != null)
 			{
 				m_hourHand.DOLocalRotate(
-					new Vector3(0, 0, m_hourHand.localEulerAngles.z - UnityEngine.Random.Range(100, 400)),
+					new Vector3(0, 0, m_hourHand.localEulerAngles.z - addingHours),
 					duration,
 					RotateMode.FastBeyond360
 				).SetEase(Ease.OutSine);
@@ -54,7 +57,7 @@ namespace Assets._Code.UI
 			if (m_minuteHand != null)
 			{
 				m_minuteHand.DOLocalRotate(
-					new Vector3(0, 0, m_minuteHand.localEulerAngles.z - UnityEngine.Random.Range(800, 1200)),
+					new Vector3(0, 0, m_minuteHand.localEulerAngles.z - addingMinutes),
 					duration,
 					RotateMode.FastBeyond360
 				).SetEase(Ease.OutSine);
