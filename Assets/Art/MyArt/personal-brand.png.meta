@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: 0de494e923c540b419905141ee9671f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7889457441387205626
+    second: personal-brand 1_0
+  - first:
+      213: -658175234234704524
+    second: personal-brand 1_1
+  - first:
+      213: 2365733635144395270
+    second: personal-brand 1_2
+  - first:
+      213: 5708121056084750396
+    second: personal-brand 1_3
+  - first:
+      213: 9027086036334550857
+    second: personal-brand 1_4
+  - first:
+      213: 8900516493574359589
+    second: personal-brand 1_5
+  - first:
+      213: -1505662792410106567
+    second: personal-brand 1_6
+  - first:
+      213: 7445274101419790672
+    second: personal-brand 1_7
+  - first:
+      213: -406014311400681982
+    second: personal-brand 1_8
+  - first:
+      213: 6786646683807751450
+    second: personal-brand 1_9
+  - first:
+      213: 4373870488765609780
+    second: personal-brand 1_10
+  - first:
+      213: -5364409743086805061
+    second: personal-brand 1_11
+  - first:
+      213: -110817782061218363
+    second: personal-brand 1_12
+  - first:
+      213: 9045692392807177844
+    second: personal-brand 1_13
+  - first:
+      213: 7486456376294807095
+    second: personal-brand 1_14
+  - first:
+      213: -1207764893856602999
+    second: personal-brand 1_15
+  - first:
+      213: -4518016521215991121
+    second: personal-brand 1_16
+  - first:
+      213: 2493943480376913313
+    second: personal-brand 1_17
+  - first:
+      213: 8164027409564618522
+    second: personal-brand 1_18
+  - first:
+      213: -1845644606614145750
+    second: personal-brand 1_19
+  - first:
+      213: 8869841343389230905
+    second: personal-brand 1_20
+  - first:
+      213: 5288390787844132814
+    second: personal-brand 1_21
+  - first:
+      213: -7001093468254617737
+    second: personal-brand 1_22
+  - first:
+      213: -6968827482191613778
+    second: personal-brand 1_23
+  - first:
+      213: -4765093353193442813
+    second: personal-brand 1_24
+  - first:
+      213: 7540351568559943608
+    second: personal-brand 1_25
+  - first:
+      213: -3583033066335818026
+    second: personal-brand 1_26
+  - first:
+      213: -4562859606266608370
+    second: personal-brand 1_27
+  - first:
+      213: -437599004031450810
+    second: personal-brand 1_28
+  - first:
+      213: -7617350560103162324
+    second: personal-brand 1_29
+  - first:
+      213: 6448092138524294735
+    second: personal-brand 1_30
+  - first:
+      213: -5443307320939340587
+    second: personal-brand 1_31
+  - first:
+      213: 1592765692826155152
+    second: personal-brand 1_32
+  - first:
+      213: 2945408427488616457
+    second: personal-brand 1_33
+  - first:
+      213: 7204949261518134565
+    second: personal-brand 1_34
+  - first:
+      213: -8298918481712231247
+    second: personal-brand 1_35
+  - first:
+      213: 8102814694324321987
+    second: personal-brand 1_36
+  - first:
+      213: 9115717395728327233
+    second: personal-brand 1_37
+  - first:
+      213: -2070893973536688189
+    second: personal-brand 1_38
+  - first:
+      213: -5427185142574841233
+    second: personal-brand 1_39
+  - first:
+      213: 4235557539011618374
+    second: personal-brand 1_40
+  - first:
+      213: 3174587637931254481
+    second: personal-brand 1_41
+  - first:
+      213: -9033074313416268693
+    second: personal-brand 1_42
+  - first:
+      213: -961933395075379837
+    second: personal-brand 1_43
+  - first:
+      213: -2161172674608978710
+    second: personal-brand 1_44
+  - first:
+      213: 4026362993005904308
+    second: personal-brand 1_45
+  - first:
+      213: 3597387523979828613
+    second: personal-brand 1_46
+  - first:
+      213: 8639169668028023954
+    second: personal-brand 1_47
+  - first:
+      213: 7003563368938345021
+    second: personal-brand 1_48
+  - first:
+      213: 2505358053037235317
+    second: personal-brand 1_49
+  - first:
+      213: -3491363097392366526
+    second: personal-brand 1_50
+  - first:
+      213: -6567642902783015519
+    second: personal-brand 1_51
+  - first:
+      213: -956239532189554508
+    second: personal-brand 1_52
+  - first:
+      213: 852954189641594558
+    second: personal-brand 1_53
+  - first:
+      213: -2968542998770622180
+    second: personal-brand 1_54
+  - first:
+      213: 727405018314935153
+    second: personal-brand 1_55
+  - first:
+      213: 1236152149882483443
+    second: personal-brand 1_56
+  - first:
+      213: -3649497832271245429
+    second: personal-brand 1_57
+  - first:
+      213: 1780449812515121946
+    second: personal-brand 1_58
+  - first:
+      213: -6149056191634138362
+    second: personal-brand 1_59
+  - first:
+      213: 6628822296113720223
+    second: personal-brand 1_60
+  - first:
+      213: -3195095428734343562
+    second: personal-brand 1_61
+  - first:
+      213: 928577935579498707
+    second: personal-brand 1_62
+  - first:
+      213: -5739260462816446641
+    second: personal-brand 1_63
+  - first:
+      213: -5400581206515391440
+    second: personal-brand 1_64
+  - first:
+      213: 1161844467971929510
+    second: personal-brand 1_65
+  - first:
+      213: 686388008535738477
+    second: personal-brand 1_66
+  - first:
+      213: 9097272755953781580
+    second: personal-brand 1_67
+  - first:
+      213: -7472227095898671613
+    second: personal-brand 1_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personal-brand 1_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 207
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cad87d144038290800000000000000
+      internalID: -7889457441387205626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 230
+        width: 22
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d1b739c11bdd6f0800000000000000
+      internalID: -658175234234704524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 440
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aa9fbf436c4d020800000000000000
+      internalID: 2365733635144395270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 440
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30fbda8bd1573f40800000000000000
+      internalID: 5708121056084750396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_4
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f1c982ce6a64d70800000000000000
+      internalID: 9027086036334550857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_5
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 440
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a410d089cf48b70800000000000000
+      internalID: 8900516493574359589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 440
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9357fdaeaafca1be0800000000000000
+      internalID: -1505662792410106567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_7
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 440
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051da86395de25760800000000000000
+      internalID: 7445274101419790672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_8
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 441
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ecc3b822c8d5af0800000000000000
+      internalID: -406014311400681982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d9174a3330f2e50800000000000000
+      internalID: 6786646683807751450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_10
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 441
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4373078290c13bc30800000000000000
+      internalID: 4373870488765609780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_11
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf9aa1b2c9cd85b0800000000000000
+      internalID: -5364409743086805061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_12
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 440
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5c17970db467ef0800000000000000
+      internalID: -110817782061218363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 441
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e99bc1e41c88d70800000000000000
+      internalID: 9045692392807177844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 441
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7369287c86c35e760800000000000000
+      internalID: 7486456376294807095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_15
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9846d716a382d3fe0800000000000000
+      internalID: -1207764893856602999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_16
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 440
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2239359e7cc41c0800000000000000
+      internalID: -4518016521215991121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 441
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad64c5c1644c9220800000000000000
+      internalID: 2493943480376913313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_18
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fc6a39ca37c4170800000000000000
+      internalID: 8164027409564618522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_19
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 440
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25f5294204f266e0800000000000000
+      internalID: -1845644606614145750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_20
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937e9c615b1081b70800000000000000
+      internalID: 8869841343389230905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_21
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 440
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfc5e60763246940800000000000000
+      internalID: 5288390787844132814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_22
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 441
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f3061859e17de90800000000000000
+      internalID: -7001093468254617737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 401
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea03dfec350c94f90800000000000000
+      internalID: -6968827482191613778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_24
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 401
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302745187dcfeddb0800000000000000
+      internalID: -4765093353193442813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_25
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 403
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf23951dc5b4a860800000000000000
+      internalID: 7540351568559943608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_26
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 403
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de239ee862864ec0800000000000000
+      internalID: -3583033066335818026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_27
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 404
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e050088fc577da0c0800000000000000
+      internalID: -4562859606266608370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_28
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64104aa36065de9f0800000000000000
+      internalID: -437599004031450810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_29
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 404
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e9d67260cb94690800000000000000
+      internalID: -7617350560103162324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_30
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ebab3f2a93c7950800000000000000
+      internalID: 6448092138524294735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_31
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 404
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc902cd4dc7574b0800000000000000
+      internalID: -5443307320939340587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_32
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098f45375f3aa1610800000000000000
+      internalID: 1592765692826155152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_33
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 404
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900a6eefb5130e820800000000000000
+      internalID: 2945408427488616457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_34
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d508d0e2f1df360800000000000000
+      internalID: 7204949261518134565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_35
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 398
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc4e954c9154dc80800000000000000
+      internalID: -8298918481712231247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_36
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce3400b80bf27070800000000000000
+      internalID: 8102814694324321987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_37
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 404
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1426c3d9ca8818e70800000000000000
+      internalID: 9115717395728327233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 403
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c739d337e4b243e0800000000000000
+      internalID: -2070893973536688189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_39
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 403
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f628c860ed3cea4b0800000000000000
+      internalID: -5427185142574841233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_40
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e38a0429b7ca30800000000000000
+      internalID: 4235557539011618374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_41
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 404
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d22d3313a66e0c20800000000000000
+      internalID: 3174587637931254481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_42
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 403
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b642e1f65c214a280800000000000000
+      internalID: -9033074313416268693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_43
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d42f87ca686a2f0800000000000000
+      internalID: -961933395075379837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_44
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 404
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4a6af17e8f102e0800000000000000
+      internalID: -2161172674608978710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_45
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 403
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b145ee3fc380e730800000000000000
+      internalID: 4026362993005904308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_46
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 403
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d5d3ea4ec7ce130800000000000000
+      internalID: 3597387523979828613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_47
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 404
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294c3217a0f74e770800000000000000
+      internalID: 8639169668028023954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_48
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32128f07c7a13160800000000000000
+      internalID: 7003563368938345021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_49
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 403
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd27210e1d4c220800000000000000
+      internalID: 2505358053037235317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_50
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 403
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c350ec2cf2c8fc0800000000000000
+      internalID: -3491363097392366526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_51
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 403
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5c008a39b0bd4a0800000000000000
+      internalID: -6567642902783015519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_52
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 404
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e7ab3631cab2f0800000000000000
+      internalID: -956239532189554508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_53
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 304
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b44bf05d46db00800000000000000
+      internalID: 852954189641594558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_54
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 279
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11edc1eedd9dc6d0800000000000000
+      internalID: -2968542998770622180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_55
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 306
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b8f7c9203481a00800000000000000
+      internalID: 727405018314935153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_56
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 277
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b416b4d1b72110800000000000000
+      internalID: 1236152149882483443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_57
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 280
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f0ae2be016a5dc0800000000000000
+      internalID: -3649497832271245429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_58
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 280
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bef57dbad65b810800000000000000
+      internalID: 1780449812515121946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_59
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 281
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b1bb909f92aaaa0800000000000000
+      internalID: -6149056191634138362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_60
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 280
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b2c0fd1ce4efb50800000000000000
+      internalID: 6628822296113720223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_61
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 281
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676a0dac2adb8a3d0800000000000000
+      internalID: -3195095428734343562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_62
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 280
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d84b7c66b8f2ec00800000000000000
+      internalID: 928577935579498707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_63
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 280
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47b168540d0a50b0800000000000000
+      internalID: -5739260462816446641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_64
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 284
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034eff491084d05b0800000000000000
+      internalID: -5400581206515391440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_65
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 280
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a538bd4363bf1010800000000000000
+      internalID: 1161844467971929510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_66
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 280
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d684cd2d14a868900800000000000000
+      internalID: 686388008535738477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_67
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 281
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bc6734f51004e70800000000000000
+      internalID: 9097272755953781580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal-brand 1_68
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 304
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30639ebbb015d4890800000000000000
+      internalID: -7472227095898671613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      personal-brand 1_0: -7889457441387205626
+      personal-brand 1_1: -658175234234704524
+      personal-brand 1_10: 4373870488765609780
+      personal-brand 1_11: -5364409743086805061
+      personal-brand 1_12: -110817782061218363
+      personal-brand 1_13: 9045692392807177844
+      personal-brand 1_14: 7486456376294807095
+      personal-brand 1_15: -1207764893856602999
+      personal-brand 1_16: -4518016521215991121
+      personal-brand 1_17: 2493943480376913313
+      personal-brand 1_18: 8164027409564618522
+      personal-brand 1_19: -1845644606614145750
+      personal-brand 1_2: 2365733635144395270
+      personal-brand 1_20: 8869841343389230905
+      personal-brand 1_21: 5288390787844132814
+      personal-brand 1_22: -7001093468254617737
+      personal-brand 1_23: -6968827482191613778
+      personal-brand 1_24: -4765093353193442813
+      personal-brand 1_25: 7540351568559943608
+      personal-brand 1_26: -3583033066335818026
+      personal-brand 1_27: -4562859606266608370
+      personal-brand 1_28: -437599004031450810
+      personal-brand 1_29: -7617350560103162324
+      personal-brand 1_3: 5708121056084750396
+      personal-brand 1_30: 6448092138524294735
+      personal-brand 1_31: -5443307320939340587
+      personal-brand 1_32: 1592765692826155152
+      personal-brand 1_33: 2945408427488616457
+      personal-brand 1_34: 7204949261518134565
+      personal-brand 1_35: -8298918481712231247
+      personal-brand 1_36: 8102814694324321987
+      personal-brand 1_37: 9115717395728327233
+      personal-brand 1_38: -2070893973536688189
+      personal-brand 1_39: -5427185142574841233
+      personal-brand 1_4: 9027086036334550857
+      personal-brand 1_40: 4235557539011618374
+      personal-brand 1_41: 3174587637931254481
+      personal-brand 1_42: -9033074313416268693
+      personal-brand 1_43: -961933395075379837
+      personal-brand 1_44: -2161172674608978710
+      personal-brand 1_45: 4026362993005904308
+      personal-brand 1_46: 3597387523979828613
+      personal-brand 1_47: 8639169668028023954
+      personal-brand 1_48: 7003563368938345021
+      personal-brand 1_49: 2505358053037235317
+      personal-brand 1_5: 8900516493574359589
+      personal-brand 1_50: -3491363097392366526
+      personal-brand 1_51: -6567642902783015519
+      personal-brand 1_52: -956239532189554508
+      personal-brand 1_53: 852954189641594558
+      personal-brand 1_54: -2968542998770622180
+      personal-brand 1_55: 727405018314935153
+      personal-brand 1_56: 1236152149882483443
+      personal-brand 1_57: -3649497832271245429
+      personal-brand 1_58: 1780449812515121946
+      personal-brand 1_59: -6149056191634138362
+      personal-brand 1_6: -1505662792410106567
+      personal-brand 1_60: 6628822296113720223
+      personal-brand 1_61: -3195095428734343562
+      personal-brand 1_62: 928577935579498707
+      personal-brand 1_63: -5739260462816446641
+      personal-brand 1_64: -5400581206515391440
+      personal-brand 1_65: 1161844467971929510
+      personal-brand 1_66: 686388008535738477
+      personal-brand 1_67: 9097272755953781580
+      personal-brand 1_68: -7472227095898671613
+      personal-brand 1_7: 7445274101419790672
+      personal-brand 1_8: -406014311400681982
+      personal-brand 1_9: 6786646683807751450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
